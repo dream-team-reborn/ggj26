@@ -1,0 +1,197 @@
+[gd_scene format=3 uid="uid://cukfdjcnb5tm6"]
+
+[ext_resource type="Script" uid="uid://b3wlwtxgdp4ph" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://cpc5dodafvd1a" path="res://assets/images/001.png" id="2_0xm2m"]
+[ext_resource type="Theme" uid="uid://c06bgru3bgr8h" path="res://theme.tres" id="3_1bvp3"]
+[ext_resource type="FontFile" uid="uid://dyfbem0bp2h8" path="res://assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf" id="3_h2yge"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xm2m"]
+bg_color = Color(0.060530342, 0.060530365, 0.060530297, 1)
+
+[node name="Main" type="Control" unique_id=1784043280]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0xm2m")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1193945739]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_0xm2m")
+expand_mode = 2
+
+[node name="MainDialoguePanel" type="Panel" parent="." unique_id=1370484696]
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="MainDialogueLabel" type="RichTextLabel" parent="MainDialoguePanel" unique_id=839034418]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_1bvp3")
+theme_override_fonts/normal_font = ExtResource("3_h2yge")
+theme_override_fonts/bold_font = ExtResource("3_h2yge")
+theme_override_fonts/bold_italics_font = ExtResource("3_h2yge")
+theme_override_fonts/italics_font = ExtResource("3_h2yge")
+theme_override_fonts/mono_font = ExtResource("3_h2yge")
+bbcode_enabled = true
+text = "[b]Testo[/b] a caso ehi"
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2008969898]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="Choiche" type="VBoxContainer" parent="MarginContainer" unique_id=159242690]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Choiche1" type="Panel" parent="MarginContainer/Choiche" unique_id=806247179]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="Choiche1Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche1" unique_id=292385514]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+bbcode_enabled = true
+text = "Choiche 1
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Choiche2" type="Panel" parent="MarginContainer/Choiche" unique_id=1423024947]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="Choiche2Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche2" unique_id=1136549717]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+bbcode_enabled = true
+text = "Choiche 2
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Choiche3" type="Panel" parent="MarginContainer/Choiche" unique_id=510779471]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="Choiche3Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche3" unique_id=113473846]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+bbcode_enabled = true
+text = "Choiche 3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Choiche4" type="Panel" parent="MarginContainer/Choiche" unique_id=1976638244]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="Choiche4Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche4" unique_id=456496125]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+bbcode_enabled = true
+text = "Choiche 4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel" type="Panel" parent="." unique_id=1885413873]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0xm2m")
+
+[node name="PanelLabel" type="RichTextLabel" parent="Panel" unique_id=262807835]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+bbcode_enabled = true
+text = "Ciao Vitto!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1772704311]
+unique_name_in_owner = true
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche1" to="." method="_on_choiche_1_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche2" to="." method="_on_choiche_2_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche3" to="." method="_on_choiche_3_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche4" to="." method="_on_choiche_4_gui_input"]
+[connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]

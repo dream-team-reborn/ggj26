@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://c06bgru3bgr8h"]
+
+[ext_resource type="FontFile" uid="uid://dyfbem0bp2h8" path="res://assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf" id="1_e1x85"]
+
+[resource]
+default_font = ExtResource("1_e1x85")
+default_font_size = 60

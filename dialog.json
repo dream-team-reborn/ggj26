@@ -1,0 +1,44 @@
+[
+	{
+		"id": "0",
+		"main": "Ehi bello da config, non morire vitto!!",
+		"next": "1",
+		"image": "001.png"
+	},
+	{
+		"id": "1",
+		"main": "Come educato!",
+		"actions": [
+			{
+				"text": "CiaO!",
+				"next": "3"
+			},
+			{
+				"text": "Vai terrone!",
+				"next": "3"
+			}
+		]
+	},
+	{
+		"id": "2",
+		"main": "Maledetto, terrapiattista",
+		"actions": [
+			{
+				"text": "",
+				"next": "3"
+			},
+			{
+				"text": "",
+				"next": "3"
+			}
+		]
+	},
+	{
+		"id": "3",
+		"panel": {
+			"text": "Panel text"
+		},
+		"end": true
+	}
+	
+]
