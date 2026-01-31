@@ -15,3 +15,6 @@ export_credentials.cfg
 data_*/
 mono_crash.*.json
 assets/music/.DS_Store
+assets/images/.DS_Store
+.DS_Store
+exports

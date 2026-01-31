@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://pbcvqdn0wbok"]
+
+[ext_resource type="Theme" uid="uid://c06bgru3bgr8h" path="res://theme.tres" id="1_lti8b"]
+[ext_resource type="Script" uid="uid://3111vxysveu" path="res://menu.gd" id="1_ouk20"]
+
+[node name="Menu" type="Control" unique_id=2120423630]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ouk20")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=586262000]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 100
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1377814630]
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/VBoxContainer" unique_id=513642002]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_lti8b")
+text = "The existence of Isgrò and Me"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=774536058]
+custom_minimum_size = Vector2(350, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("1_lti8b")
+text = "Inizia"
+
+[node name="MasksButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1769960066]
+custom_minimum_size = Vector2(350, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_lti8b")
+text = "Maschere"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/MasksButton" to="." method="_on_masks_button_pressed"]

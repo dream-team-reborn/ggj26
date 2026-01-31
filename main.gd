@@ -3,14 +3,41 @@ extends Control
 var dialogues: Dictionary
 var selected: Variant
 
+var menu = load("res://menu.tscn")
+
+var is_playing_text: bool = false
+var last_letter_delta: float = 0
+var playback_index: int = 0
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	_setup()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta: float) -> void:
-	pass
+func _process(delta: float) -> void:
+	var dialogue = dialogues[selected]
 	
+	if is_playing_text and last_letter_delta > 0.05:
+		last_letter_delta = 0
+		if dialogue.has("panel"):
+			if len(dialogue["panel"]) > playback_index:
+				%PanelLabel.text += dialogue["panel"][playback_index]
+				playback_index += 1
+			else:
+				is_playing_text = false
+				playback_index = 0
+
+			
+		if dialogue.has("main"):
+			if len(dialogue["main"]) > playback_index:
+				%MainDialogueLabel.text += dialogue["main"][playback_index]
+				playback_index += 1
+			else:
+				is_playing_text = false
+				playback_index = 0
+	elif is_playing_text:
+		last_letter_delta += delta
+
 func _setup() -> void:
 	var file = FileAccess.open("res://dialog.json", FileAccess.READ)
 	var content = file.get_as_text()
@@ -38,14 +65,23 @@ func _setup_dialogue() -> void:
 	var dialogue = dialogues[selected]
 	
 	if dialogue.has("music"):
-		%AudioStreamPlayer.stream = load("res://assets/music/" + dialogue["music"])
-		%AudioStreamPlayer.playing = true
+		%Music.stream = load("res://assets/music/" + dialogue["music"])
+		%Music.playing = true
+		%Music.autoplay = true
+		
+	if dialogue.has("sound"):
+		%Sound.stream = load("res://assets/music/" + dialogue["music"])
+		%Sound.playing = true
+		%Sound.autoplay = false
 	
 	if dialogue.has("image"):
 		%TextureRect.texture = load("res://assets/images/" + dialogue["image"])
 	
 	if dialogue.has("main"):
-		%MainDialogueLabel.text = dialogue["main"]
+		%MainDialogueLabel.text = ""
+		is_playing_text = true
+		last_letter_delta = 0
+		playback_index = 0
 		
 	if dialogue.has("actions"):
 		for index in range(len(dialogue["actions"])):
@@ -65,7 +101,10 @@ func _setup_dialogue() -> void:
 					
 	if dialogue.has("panel"):
 		%Panel.visible = true
-		%PanelLabel.text = dialogue["panel"]
+		%PanelLabel.text = ""
+		is_playing_text = true
+		last_letter_delta = 0
+		playback_index = 0
 		
 	if dialogue.has("title"):
 		%Title.visible = true
@@ -86,35 +125,74 @@ func _next_dialogue(action: int) -> void:
 		else:
 			print("Dialogue wrong format cannot go next or set choiche")
 	else:
-		_setup()
+		get_tree().change_scene_to_packed(menu)
+
 
 func _on_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
-	if input and input.button_index == 1 and input.is_pressed():
-		_next_dialogue(-1)
+	if input == null:
+		return
+		
+	if input.button_index == 1 and input.is_pressed():
+		if not is_playing_text:
+			_next_dialogue(-1)
+		else:
+			var dialogue = dialogues[selected]
+			if dialogue.has("panel"):
+				%PanelLabel.text += dialogue["panel"].substr(playback_index, -1)
+
+			if dialogue.has("main"):
+				%MainDialogueLabel.text += dialogue["main"].substr(playback_index, -1)
+			is_playing_text = false
+			playback_index = 0
 		
 
 func _on_choiche_1_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
-	if input and input.button_index == 1 and input.is_pressed():
+	if input == null:
+		return
+		
+	if not is_playing_text and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(0)
 
 func _on_choiche_2_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
-	if input and input.button_index == 1 and input.is_pressed():
+	if input == null:
+		return
+		
+	if not is_playing_text and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(1)
 
 func _on_choiche_3_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
-	if input and input.button_index == 1 and input.is_pressed():
+	if input == null:
+		return
+		
+	if not is_playing_text and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(2)
 
 func _on_choiche_4_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
-	if input and input.button_index == 1 and input.is_pressed():
+	if input == null:
+		return
+		
+	if not is_playing_text and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(3)
 
 func _on_panel_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
-	if input and input.button_index == 1 and input.is_pressed():
-		_next_dialogue(-1)
+	if input == null:
+		return
+		
+	if input.button_index == 1 and input.is_pressed():
+		if not is_playing_text:
+			_next_dialogue(-1)
+		else:
+			var dialogue = dialogues[selected]
+			if dialogue.has("panel"):
+				%PanelLabel.text += dialogue["panel"].substr(playback_index, -1)
+
+			if dialogue.has("main"):
+				%MainDialogueLabel.text += dialogue["main"].substr(playback_index, -1)
+			is_playing_text = false
+			playback_index = 0

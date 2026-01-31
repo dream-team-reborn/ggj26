@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="GGJ26"
-run/main_scene="uid://cukfdjcnb5tm6"
+run/main_scene="uid://pbcvqdn0wbok"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=1024
 window/size/viewport_height=1024
+window/size/resizable=false
 
 [physics]
 

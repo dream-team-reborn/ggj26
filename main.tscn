@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://cukfdjcnb5tm6"]
 
 [ext_resource type="Script" uid="uid://b3wlwtxgdp4ph" path="res://main.gd" id="1_0xm2m"]
-[ext_resource type="Texture2D" path="res://assets/images/001.png" id="2_0xm2m"]
 [ext_resource type="Theme" uid="uid://c06bgru3bgr8h" path="res://theme.tres" id="3_1bvp3"]
 [ext_resource type="FontFile" uid="uid://dyfbem0bp2h8" path="res://assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf" id="3_h2yge"]
 
@@ -20,7 +19,11 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0xm2m")
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1772704311]
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=1772704311]
+unique_name_in_owner = true
+autoplay = true
+
+[node name="Sound" type="AudioStreamPlayer" parent="." unique_id=580439018]
 unique_name_in_owner = true
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1193945739]
@@ -31,7 +34,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_0xm2m")
 expand_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=2008969898]
