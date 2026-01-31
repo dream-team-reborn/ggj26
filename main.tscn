@@ -4,6 +4,9 @@
 [ext_resource type="Theme" uid="uid://c06bgru3bgr8h" path="res://theme.tres" id="3_1bvp3"]
 [ext_resource type="FontFile" uid="uid://dyfbem0bp2h8" path="res://assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf" id="3_h2yge"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h2yge"]
+bg_color = Color(0.23137255, 0.23137255, 0.23137255, 0.84313726)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xm2m"]
 bg_color = Color(0, 0, 0, 1)
 
@@ -36,7 +39,54 @@ grow_horizontal = 2
 grow_vertical = 2
 expand_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2008969898]
+[node name="MainDialoguePanel" type="Panel" parent="." unique_id=1370484696]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -400.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_h2yge")
+
+[node name="MarginContainer" type="MarginContainer" parent="MainDialoguePanel" unique_id=2042598203]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 20
+
+[node name="MainDialogueLabel" type="RichTextLabel" parent="MainDialoguePanel/MarginContainer" unique_id=839034418]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+theme_override_fonts/normal_font = ExtResource("3_h2yge")
+theme_override_fonts/bold_font = ExtResource("3_h2yge")
+theme_override_fonts/bold_italics_font = ExtResource("3_h2yge")
+theme_override_fonts/italics_font = ExtResource("3_h2yge")
+theme_override_fonts/mono_font = ExtResource("3_h2yge")
+bbcode_enabled = true
+text = "[b]Testo[/b] a caso ehi"
+
+[node name="Choiche" type="Panel" parent="." unique_id=400468564]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Choiche" unique_id=2008969898]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -48,19 +98,17 @@ theme_override_constants/margin_top = 50
 theme_override_constants/margin_right = 50
 theme_override_constants/margin_bottom = 50
 
-[node name="Choiche" type="VBoxContainer" parent="MarginContainer" unique_id=159242690]
-unique_name_in_owner = true
-visible = false
+[node name="VBox" type="VBoxContainer" parent="Choiche/MarginContainer" unique_id=159242690]
 layout_mode = 2
 size_flags_vertical = 4
 
-[node name="Choiche1" type="Panel" parent="MarginContainer/Choiche" unique_id=806247179]
+[node name="Choiche1" type="Panel" parent="Choiche/MarginContainer/VBox" unique_id=806247179]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_vertical = 2
 
-[node name="Choiche1Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche1" unique_id=292385514]
+[node name="Choiche1Label" type="RichTextLabel" parent="Choiche/MarginContainer/VBox/Choiche1" unique_id=292385514]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
@@ -70,19 +118,24 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
 theme = ExtResource("3_1bvp3")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 40
+theme_override_font_sizes/bold_italics_font_size = 40
+theme_override_font_sizes/italics_font_size = 40
+theme_override_font_sizes/mono_font_size = 40
 bbcode_enabled = true
 text = "Choiche 1
 "
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Choiche2" type="Panel" parent="MarginContainer/Choiche" unique_id=1423024947]
+[node name="Choiche2" type="Panel" parent="Choiche/MarginContainer/VBox" unique_id=1423024947]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_vertical = 2
 
-[node name="Choiche2Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche2" unique_id=1136549717]
+[node name="Choiche2Label" type="RichTextLabel" parent="Choiche/MarginContainer/VBox/Choiche2" unique_id=1136549717]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
@@ -92,19 +145,24 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
 theme = ExtResource("3_1bvp3")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 40
+theme_override_font_sizes/bold_italics_font_size = 40
+theme_override_font_sizes/italics_font_size = 40
+theme_override_font_sizes/mono_font_size = 40
 bbcode_enabled = true
 text = "Choiche 2
 "
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Choiche3" type="Panel" parent="MarginContainer/Choiche" unique_id=510779471]
+[node name="Choiche3" type="Panel" parent="Choiche/MarginContainer/VBox" unique_id=510779471]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_vertical = 2
 
-[node name="Choiche3Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche3" unique_id=113473846]
+[node name="Choiche3Label" type="RichTextLabel" parent="Choiche/MarginContainer/VBox/Choiche3" unique_id=113473846]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
@@ -114,18 +172,23 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
 theme = ExtResource("3_1bvp3")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 40
+theme_override_font_sizes/bold_italics_font_size = 40
+theme_override_font_sizes/italics_font_size = 40
+theme_override_font_sizes/mono_font_size = 40
 bbcode_enabled = true
 text = "Choiche 3"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Choiche4" type="Panel" parent="MarginContainer/Choiche" unique_id=1976638244]
+[node name="Choiche4" type="Panel" parent="Choiche/MarginContainer/VBox" unique_id=1976638244]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_vertical = 2
 
-[node name="Choiche4Label" type="RichTextLabel" parent="MarginContainer/Choiche/Choiche4" unique_id=456496125]
+[node name="Choiche4Label" type="RichTextLabel" parent="Choiche/MarginContainer/VBox/Choiche4" unique_id=456496125]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
@@ -135,40 +198,15 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
 theme = ExtResource("3_1bvp3")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 40
+theme_override_font_sizes/bold_italics_font_size = 40
+theme_override_font_sizes/italics_font_size = 40
+theme_override_font_sizes/mono_font_size = 40
 bbcode_enabled = true
 text = "Choiche 4"
 horizontal_alignment = 1
 vertical_alignment = 1
-
-[node name="MainDialoguePanel" type="Panel" parent="." unique_id=1370484696]
-custom_minimum_size = Vector2(0, 400)
-layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -400.0
-grow_horizontal = 2
-grow_vertical = 0
-
-[node name="MainDialogueLabel" type="RichTextLabel" parent="MainDialoguePanel" unique_id=839034418]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(0, 300)
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-mouse_filter = 1
-theme = ExtResource("3_1bvp3")
-theme_override_fonts/normal_font = ExtResource("3_h2yge")
-theme_override_fonts/bold_font = ExtResource("3_h2yge")
-theme_override_fonts/bold_italics_font = ExtResource("3_h2yge")
-theme_override_fonts/italics_font = ExtResource("3_h2yge")
-theme_override_fonts/mono_font = ExtResource("3_h2yge")
-bbcode_enabled = true
-text = "[b]Testo[/b] a caso ehi"
 
 [node name="Title" type="Panel" parent="." unique_id=1885413873]
 unique_name_in_owner = true
@@ -223,10 +261,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche1/Choiche1Label" to="." method="_on_choiche_1_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche2/Choiche2Label" to="." method="_on_choiche_2_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche3/Choiche3Label" to="." method="_on_choiche_3_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche4/Choiche4Label" to="." method="_on_choiche_4_gui_input"]
-[connection signal="gui_input" from="MainDialoguePanel/MainDialogueLabel" to="." method="_on_gui_input"]
+[connection signal="gui_input" from="MainDialoguePanel/MarginContainer/MainDialogueLabel" to="." method="_on_gui_input"]
+[connection signal="gui_input" from="Choiche/MarginContainer/VBox/Choiche1/Choiche1Label" to="." method="_on_choiche_1_gui_input"]
+[connection signal="gui_input" from="Choiche/MarginContainer/VBox/Choiche2/Choiche2Label" to="." method="_on_choiche_2_gui_input"]
+[connection signal="gui_input" from="Choiche/MarginContainer/VBox/Choiche3/Choiche3Label" to="." method="_on_choiche_3_gui_input"]
+[connection signal="gui_input" from="Choiche/MarginContainer/VBox/Choiche4/Choiche4Label" to="." method="_on_choiche_4_gui_input"]
 [connection signal="gui_input" from="Title" to="." method="_on_panel_gui_input"]
 [connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]

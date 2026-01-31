@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cb78wjbg47q1n"
+path="res://.godot/imported/MECHSwtch_BLEEOOP_Rubber Duck Clicks 5.ogg-a6a02f4f4e59f9617ee73fc964a31056.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sounds/MECHSwtch_BLEEOOP_Rubber Duck Clicks 5.ogg"
+dest_files=["res://.godot/imported/MECHSwtch_BLEEOOP_Rubber Duck Clicks 5.ogg-a6a02f4f4e59f9617ee73fc964a31056.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

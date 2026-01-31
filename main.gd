@@ -2,6 +2,7 @@ extends Control
 
 var dialogues: Dictionary
 var selected: Variant
+var points: int 
 
 var menu = load("res://menu.tscn")
 
@@ -70,7 +71,7 @@ func _setup_dialogue() -> void:
 		%Music.autoplay = true
 		
 	if dialogue.has("sound"):
-		%Sound.stream = load("res://assets/music/" + dialogue["music"])
+		%Sound.stream = load("res://assets/sounds/" + dialogue["sound"])
 		%Sound.playing = true
 		%Sound.autoplay = false
 	
@@ -118,6 +119,21 @@ func _next_dialogue(action: int) -> void:
 				%Choiche.visible = true
 			elif action >= 0:
 				selected = dialogue["actions"][action]["next"]
+				if dialogue["actions"][action].has("points"):
+					points += dialogue["actions"][action]["points"]
+				_setup_dialogue()
+		elif dialogue.has("conditions"):
+			var selection = null
+			for condition in dialogue["conditions"]:
+				if condition.has("next"):
+					if condition.has("more") and condition["more"] > points:
+						selection = condition["next"]
+					elif condition.has("less") and condition["less"] <= points:
+						selection = condition["next"]
+					elif condition.has("equal") and condition["equal"] == points:
+						selection = condition["next"]
+			if selection:
+				selected = selection
 				_setup_dialogue()
 		elif dialogue.has("next"):
 			selected = dialogue["next"]
@@ -126,7 +142,6 @@ func _next_dialogue(action: int) -> void:
 			print("Dialogue wrong format cannot go next or set choiche")
 	else:
 		get_tree().change_scene_to_packed(menu)
-
 
 func _on_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
@@ -145,7 +160,6 @@ func _on_gui_input(event: InputEvent) -> void:
 				%MainDialogueLabel.text += dialogue["main"].substr(playback_index, -1)
 			is_playing_text = false
 			playback_index = 0
-		
 
 func _on_choiche_1_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton

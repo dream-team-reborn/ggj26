@@ -1,9 +1,8 @@
 [
 	{
 		"id": "0",
-		"title": "Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.",
+		"title": "[i]Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.[/i]",
 		"next": "1",
-		"image": "umamusume.webp",
 		"music": "sketchbook001.ogg"
 	},
 	{
@@ -24,64 +23,297 @@
 	{
 		"id": "4",
 		"image": "procariota.webp",
-		"main": "Un profluvio di infinite possibilità. L’acme della creazione. Isgrò procariota è l’esempio più alto di perfezione.",
+		"main": "Poi, qualcosa accadde. Davanti a te, un profluvio di infinite possibilità. L’acme della creazione. Isgrò procariota, l’esempio più alto di perfezione.",
 		"next": "5"
 	},
 	{
 		"id": "5",
-		"main": "Dinanzi a questa meraviglia unicellulare trovare le parole adatte è quasi impossibile. [br] La tua deontologia professionale, tuttavia, non ti perdonerebbe il silenzio. [br] [b][color=\"blue\"]Sciamano[/color][/b]: Ti ringrazio per essere venuto. [br] Miracolosamente, riesci a biascicare qualche timida parola cordiale.",
-		"next": "6"
-	},
+		"main": "Dinanzi a questa meraviglia unicellulare trovare le parole adatte è quasi impossibile. [br] La tua deontologia professionale, tuttavia, non ti perdonerebbe il silenzio.",
+		"actions": [
+			{
+			"text": "Ti ringrazio per essere venuto.",	
+			"next": "6",
+			"points": 0
+			}
+		]
+	},	
 	{
 		"id": "6",
-		"main": "Comprendere la materia vivente davanti ai tuoi occhi è incredibilmente difficoltoso. Questo Isgrò comunica con una lingua vecchia 4 miliardi di anni. [br] [b][color=\"red\"]Isgrorigin[/color][/b]: Mio fratello eucariota, necessito di sostentamento. Io devo sapere.",
+		"main": "Miracolosamente, riesci a biascicare qualche timida parola cordiale.",
 		"next": "7"
 	},
 	{
 		"id": "7",
-		"main": "È muovendo la sua appendice cellulare che il dialogo con te diventa possibile. Soltanto l’amore ti permette di decifrare i movimenti del suo flagello.",
+		"main": "Comprendere la materia vivente davanti ai tuoi occhi è incredibilmente difficoltoso. Questo Isgrò comunica con una lingua vecchia 4 miliardi di anni.",
 		"next": "8"
 	},
 	{
 		"id": "8",
-		"main": "Isgrorigin: Amico eucariota, cosa sono io?",
+		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Mio fratello eucariota, necessito di sostentamento. Io devo sapere.",
+		"next": "9"
+	},
+	{
+		"id": "9",
+		"main": "È muovendo la sua appendice cellulare che il dialogo con te diventa possibile. Soltanto l’amore ti permette di decifrare i movimenti del suo flagello.",
+		"next": "10"
+	},
+	{
+		"id": "10",
+		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, cosa sono io?",
 		"actions": [
 			{
 				"text": "Una struttura unicellulare.",
-				"next": "9",
+				"next": "11",
 				"points": 0
 			},
 			{
 				"text": "Infinite possibilità.",
-				"next": "10",
+				"next": "12",
 				"points": 5
 			},
 			{
 				"text": "Sei Isgrò procariota, e non puoi essere altro.",
-				"next": "11",
+				"next": "13",
+				"points": -10
+			}
+		]
+	},
+	{
+		"id": "11",
+		"main": "L'appendice di Isgrò si muove a malapena.",
+		"next": "14"
+	},
+	{
+		"id": "12",
+		"main": "In qualche modo, riesci a leggere una nota di felicità nei movimenti di Isgrò.",
+		"next": "14"
+	},
+	{
+		"id": "13",
+		"main": "Forse è meglio evitare crudele fatalismo con Isgrò. L’appendice del procariota sembra struggersi per una profonda tristezza.",
+		"next": "14"
+	},
+	{
+		"id": "14",
+		"main": "Anche se la sua struttura cellulare non dovrebbe permetterglielo, Isgrò sembra capace di provare emozioni umane. D’ora in poi, fai attenzione a come ti comporti con lui.",
+		"next": "15"
+	},
+	{
+		"id": "15",
+		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, cosa sei tu?",
+		"actions": [
+			{
+				"text": "Un tuo amico.",
+				"next": "16",
+				"points": 10
+			},
+			{
+				"text": "Un tuo nemico.",
+				"next": "16",
+				"points": -10
+			},
+			{
+				"text": "Un NonIsgrò.",
+				"next": "16",
+				"points": 5
+			},
+			{
+				"text": "Uno sciamano terapeuta, qui per aiutarti.",
+				"next": "16",
+				"points": 0
+			}
+		]
+	},
+	{
+		"id": "16",
+		"main": "La tua risposta soddisfa il desiderio di conoscenza di Isgrò. La sua appendice si agita.",
+		"next": "17"
+	},
+	{
+		"id": "17",
+		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, cos’è l’amore?",
+		"actions": [
+			{
+				"text": "L’argotone è amore, l’argotone è vita.",
+				"next": "18",
+				"points": -20
+			},
+			{
+				"text": "Il desiderio di migliorarsi per il bene di qualcun altro.",
+				"next": "19",
+				"points": 20
+			},
+			{
+				"text": "Rinnegare il naso rosso e vivere con dignità.",
+				"next": "20",
+				"points": -10
+			},
+			{
+				"text": "Una bustina di spidifen davanti al tramonto.",
+				"next": "21",
+				"points": -15
+			}
+		]
+	},
+	{
+		"id": "18",
+		"main": "Isgrò procariota desidera possedere un naso e una gola, così da poter provare l’argotone. La sua evoluzione è imminente.",
+		"next": "22"
+	},
+	{
+		"id": "19",
+		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Voglio migliorare per te, amico eucariota. Anche se ciò significa dimenticare chi sono. La sua evoluzione è imminente.",
+		"next": "22"
+	},
+	{
+		"id": "20",
+		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Non so cosa sia la dignità, ma sento una grande affinità con questo naso rosso.Il flagello di Isgrò si muove curioso. La sua brama di conoscenza è incontenibile. La sua evoluzione è imminente.",
+		"next": "22"
+	},
+	{
+		"id": "21",
+		"main": "Lo spidifen risveglia in Isgrò ricordi che non ha mai vissuto. Il procariota desidera ardentemente una pelle che gli permetta di sentire i raggi del sole. Si sente… migliorato. La sua evoluzione è imminente.",
+		"next": "22"
+	},
+	{
+		"id": "22",
+		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, tu mi vuoi bene?",
+		"actions": [
+			{
+				"text": "Ti amo come un padre.",
+				"next": "23",
+				"points": 20
+			},
+			{
+				"text": "Sei l’argotone per il mio spidifen.",
+				"next": "23",
+				"points": 15
+			},
+			{
+				"text": "Ti disprezzo così tanto da voler regalarti un Mac.",
+				"next": "23",
+				"points": -20
+			},
+			{
+				"text": "No. Sei stato fatto da calabresi.",
+				"next": "23",
+				"points": -50
+			}
+		]
+	},
+	{
+		"id": "23",
+		"main": "Isgrò procariota inizia la sua scissione. Presto acquisirà una nuova forma.",
+		"next": "24"
+	},
+	{
+		"id": "24",
+		"panel": "Ottenuta la Maschera del Primordiale.",
+		"next": "25"
+	},
+	{
+		"id": "25",
+		"title": "Isgrò, luce della mia vita, fuoco dei miei lombi. Mio peccato, anima mia. Vitello Nabokov",
+		"next": "26"
+	},
+	{
+		"id": "26",
+		"image": "sconosciuto.webp",
+		"main": "???: We, sciamanino! Ci ribecchiamo!",
+		"actions": [
+			{
+				"text": "Sciamanino?",
+				"next": "27",
+				"points": 0
+			},
+			{
+				"text": "ACCENDA LA LUCE CHE NON LA VEDO.",
+				"next": "30",
+				"points": 0
+			},
+			{
+				"text": "Lieto di constatare che ha sviluppato una personalità, mio caro ex-procariota.",
+				"next": "32",
+				"points": -5
+			},
+			{
+				"text": "È finalmente arrivato il bischero.",
+				"next": "34",
 				"points": -5
 			}
 		]
 	},
 	{
-		"id": "9",
-		"main": "Il flagello di Isgrò procariota si muove a malapena.",
-		"next": "12"
+		"id": "27",
+		"main": "???: Eccerto, come ti dovrei chiamare altrimenti? Non sei una specie di stregone?",
+		"actions": [
+			{
+				"text": "Come dice lei.",
+				"next": "28",
+				"points": 0
+			},
+			{
+				"text": "Meglio stregone che terrone.",
+				"next": "29",
+				"points": 5
+			}
+		]
 	},
 	{
-		"id": "10",
-		"main": "In qualche modo, riesci a leggere una nota di felicità nei movimenti di Isgrò.",
-		"next": "12"
+		"id": "28",
+		"main": "???: Peffozza! Peffozza!",
+		"next": "36"
 	},
 	{
-		"id": "11",
-		"main": "Forse è meglio evitare crudele fatalismo con Isgrò. L’appendice del procariota sembra struggersi per una profonda tristezza..",
-		"next": "12"
+		"id": "29",
+		"main": "???: Non ho capito che c’entra, ma ora mi piaci un po’ di più. Bravo!",
+		"next": "36"
 	},
 	{
-		"id": "12",
-		"title": "The END",
-		"end": true
+		"id": "30",
+		"main": "???: Ah ah! Ma questa è casa tua, testina!",
+		"next": "31"
+	},
+	{
+		"id": "31",
+		"main": "???: Vabbè. Contento ora?",
+		"next": "36"
+	},
+	{
+		"id": "32",
+		"main": "???: Mamma mia che strazio.",
+		"next": "33"
+	},
+	{
+		"id": "33",
+		"main": "???: Fammi accendere la luce, va. Che qua non sappiamo fare manco quello.",
+		"next": "36"
+	},
+	{
+		"id": "34",
+		"main": "???: Boh. Ok. Così. A caso.",
+		"next": "35"
+	},
+	{
+		"id": "35",
+		"main": "???: Sei fortunato se in futuro tornerò in questo postaccio.",
+		"next": "36"
+	},
+	{
+		"id": "36",
+		"main": "Con passo pesante, l’uomo si avvicina al pulsante della luce. La sua visione notturna super-sviluppata gli permette di posare un piede davanti all’altro, senza incertezze, anche nelle tenebre più profonde. Il piacere di chiamarsi Isgrò.",
+		"next": "37"
+	},
+	{
+		"id": "37",
+		"main": "[suono di interruttore] *click*",
+		"next": "38",
+		"sound": "UIClick_BLEEOOP_Super_Switch.ogg"
+	},
+	{
+		"id": "38",
+		"image": "isgravato.webp",
+		"main": "La luce è finalmente tornata nello studio. Davanti a te, sorretto da due poderose colonne d’Ercole, si erge lui: Isgravato. La sua aura magnetica ti obbliga a osservarlo.",
+		"end": "true"
 	}
-	
 ]
