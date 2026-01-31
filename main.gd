@@ -38,7 +38,7 @@ func _setup_dialogue() -> void:
 	
 	if dialogue.has("music"):
 		%AudioStreamPlayer.stream = load("res://assets/music/" + dialogue["music"])
-		%AudioStreamPlayer.autoplay = true
+		%AudioStreamPlayer.playing = true
 	
 	if dialogue.has("image"):
 		%TextureRect.texture = load("res://assets/images/" + dialogue["image"])
