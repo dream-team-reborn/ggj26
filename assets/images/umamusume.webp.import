@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dms2a836ugalh"
-path="res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"
+uid="uid://dmc3c3i7oq76j"
+path="res://.godot/imported/umamusume.webp-46812e4b25dccf60efcad87006cc4f39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/procariota.webp"
-dest_files=["res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"]
+source_file="res://assets/images/umamusume.webp"
+dest_files=["res://.godot/imported/umamusume.webp-46812e4b25dccf60efcad87006cc4f39.ctex"]
 
 [params]
 

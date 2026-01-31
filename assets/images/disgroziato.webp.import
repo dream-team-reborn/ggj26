@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dms2a836ugalh"
-path="res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"
+uid="uid://cnmrl482hm3ys"
+path="res://.godot/imported/disgroziato.webp-b2b087914f62dccc2f9d9bcee6172e4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/procariota.webp"
-dest_files=["res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"]
+source_file="res://assets/images/disgroziato.webp"
+dest_files=["res://.godot/imported/disgroziato.webp-b2b087914f62dccc2f9d9bcee6172e4b.ctex"]
 
 [params]
 

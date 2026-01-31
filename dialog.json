@@ -1,29 +1,29 @@
 [
 	{
 		"id": "0",
-		"panel": "Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.",
+		"title": "Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.",
 		"next": "1",
-		"image": "Procariota.webp",
+		"image": "umamusume.webp",
 		"music": "sketchbook001.ogg"
 	},
 	{
 		"id": "1",
-		"main": "In principio esisteva la versione procariota.",
+		"panel": "In principio esisteva la versione procariota.",
 		"next": "2"
 	},
 	{
 		"id": "2",
-		"main": "Semplice. Anonima. Micrometrica creazione anucleata. Senza respiro, senza impeto, priva di viscere e sangue. Scevra di sogni e inutili ambizioni.",
+		"panel": "Semplice. Anonima. Micrometrica creazione anucleata. Senza respiro, senza impeto, priva di viscere e sangue. Scevra di sogni e inutili ambizioni.",
 		"next": "3"
 	},
 	{
 		"id": "3",
-		"main": "Questa è la prima struttura. Opinabilmente, la struttura migliore possibile. Incapace di provare gioia e, pertanto, immune al dolore che accompagna ogni esistenza.",
+		"panel": "Questa è la prima struttura. Opinabilmente, la struttura migliore possibile. Incapace di provare gioia e, pertanto, immune al dolore che accompagna ogni esistenza.",
 		"next": "4"
 	},
 	{
 		"id": "4",
-		"image": "002.webp",
+		"image": "procariota.webp",
 		"main": "Un profluvio di infinite possibilità. L’acme della creazione. Isgrò procariota è l’esempio più alto di perfezione.",
 		"next": "5"
 	},
@@ -80,7 +80,7 @@
 	},
 	{
 		"id": "12",
-		"panel": "The END",
+		"title": "The END",
 		"end": true
 	}
 	

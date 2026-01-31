@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dms2a836ugalh"
-path="res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"
+uid="uid://bjtnju8s4wrkk"
+path="res://.godot/imported/focacceria.webp-612dc504f84dc471c148aab5d39fa82d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/procariota.webp"
-dest_files=["res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"]
+source_file="res://assets/images/focacceria.webp"
+dest_files=["res://.godot/imported/focacceria.webp-612dc504f84dc471c148aab5d39fa82d.ctex"]
 
 [params]
 

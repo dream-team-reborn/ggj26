@@ -27,6 +27,7 @@ func _setup() -> void:
 	_setup_dialogue()
 
 func _setup_dialogue() -> void:
+	%Title.visible = false
 	%Panel.visible = false
 	%Choiche.visible = false
 	%Choiche1.visible = false
@@ -65,6 +66,10 @@ func _setup_dialogue() -> void:
 	if dialogue.has("panel"):
 		%Panel.visible = true
 		%PanelLabel.text = dialogue["panel"]
+		
+	if dialogue.has("title"):
+		%Title.visible = true
+		%TitleLabel.text = dialogue["title"]
 
 func _next_dialogue(action: int) -> void:
 	var dialogue = dialogues[selected]

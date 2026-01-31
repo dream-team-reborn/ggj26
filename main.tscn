@@ -1,12 +1,15 @@
 [gd_scene format=3 uid="uid://cukfdjcnb5tm6"]
 
 [ext_resource type="Script" uid="uid://b3wlwtxgdp4ph" path="res://main.gd" id="1_0xm2m"]
-[ext_resource type="Texture2D" uid="uid://cpc5dodafvd1a" path="res://assets/images/001.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" path="res://assets/images/001.png" id="2_0xm2m"]
 [ext_resource type="Theme" uid="uid://c06bgru3bgr8h" path="res://theme.tres" id="3_1bvp3"]
 [ext_resource type="FontFile" uid="uid://dyfbem0bp2h8" path="res://assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf" id="3_h2yge"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xm2m"]
-bg_color = Color(0.060530342, 0.060530365, 0.060530297, 1)
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1bvp3"]
+bg_color = Color(0.19255564, 0.1925557, 0.19255558, 1)
 
 [node name="Main" type="Control" unique_id=1784043280]
 layout_mode = 3
@@ -165,7 +168,7 @@ theme_override_fonts/mono_font = ExtResource("3_h2yge")
 bbcode_enabled = true
 text = "[b]Testo[/b] a caso ehi"
 
-[node name="Panel" type="Panel" parent="." unique_id=1885413873]
+[node name="Title" type="Panel" parent="." unique_id=1885413873]
 unique_name_in_owner = true
 visible = false
 layout_mode = 1
@@ -176,7 +179,33 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_0xm2m")
 
-[node name="PanelLabel" type="RichTextLabel" parent="Panel" unique_id=262807835]
+[node name="TitleLabel" type="RichTextLabel" parent="Title" unique_id=262807835]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+bbcode_enabled = true
+text = "Ciao Vitto!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel" type="Panel" parent="." unique_id=1186347208]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1bvp3")
+
+[node name="PanelLabel" type="RichTextLabel" parent="Panel" unique_id=932806779]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
@@ -197,4 +226,5 @@ vertical_alignment = 1
 [connection signal="gui_input" from="MarginContainer/Choiche/Choiche3/Choiche3Label" to="." method="_on_choiche_3_gui_input"]
 [connection signal="gui_input" from="MarginContainer/Choiche/Choiche4/Choiche4Label" to="." method="_on_choiche_4_gui_input"]
 [connection signal="gui_input" from="MainDialoguePanel/MainDialogueLabel" to="." method="_on_gui_input"]
+[connection signal="gui_input" from="Title" to="." method="_on_panel_gui_input"]
 [connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]

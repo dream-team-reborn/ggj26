@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dms2a836ugalh"
-path="res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"
+uid="uid://chgwgcklot3kn"
+path="res://.godot/imported/vitellone_gamberone.webp-f80ce4b3fcd2d9c93255c0086a1cf0d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/procariota.webp"
-dest_files=["res://.godot/imported/procariota.webp-a232e4550e2f4aeaac0c545c3f08ff39.ctex"]
+source_file="res://assets/images/vitellone_gamberone.webp"
+dest_files=["res://.godot/imported/vitellone_gamberone.webp-f80ce4b3fcd2d9c93255c0086a1cf0d8.ctex"]
 
 [params]
 

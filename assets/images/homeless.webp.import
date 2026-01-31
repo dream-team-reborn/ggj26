@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpc5dodafvd1a"
-path="res://.godot/imported/001.png-1a3deb134c13219286c29c516316ffa9.ctex"
+uid="uid://d2ruv0m5444d2"
+path="res://.godot/imported/homeless.webp-423fa96c94868a559bc4af68e1c7670b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/001.png"
-dest_files=["res://.godot/imported/001.png-1a3deb134c13219286c29c516316ffa9.ctex"]
+source_file="res://assets/images/homeless.webp"
+dest_files=["res://.godot/imported/homeless.webp-423fa96c94868a559bc4af68e1c7670b.ctex"]
 
 [params]
 
