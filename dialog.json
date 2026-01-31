@@ -1,43 +1,85 @@
 [
 	{
 		"id": "0",
-		"main": "Ehi bello da config, non morire vitto!!",
+		"panel": "Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.",
 		"next": "1",
 		"image": "001.png"
 	},
 	{
 		"id": "1",
-		"main": "Come educato!",
-		"actions": [
-			{
-				"text": "CiaO!",
-				"next": "3"
-			},
-			{
-				"text": "Vai terrone!",
-				"next": "3"
-			}
-		]
+		"main": "In principio esisteva la versione procariota.",
+		"next": "2"
 	},
 	{
 		"id": "2",
-		"main": "Maledetto, terrapiattista",
+		"main": "Semplice. Anonima. Micrometrica creazione anucleata. Senza respiro, senza impeto, priva di viscere e sangue. Scevra di sogni e inutili ambizioni.",
+		"next": "3"
+	},
+	{
+		"id": "3",
+		"main": "Questa è la prima struttura. Opinabilmente, la struttura migliore possibile. Incapace di provare gioia e, pertanto, immune al dolore che accompagna ogni esistenza.",
+		"next": "4"
+	},
+	{
+		"id": "4",
+		"image": "002.webp",
+		"main": "Un profluvio di infinite possibilità. L’acme della creazione. Isgrò procariota è l’esempio più alto di perfezione.",
+		"next": "5"
+	},
+	{
+		"id": "5",
+		"main": "Dinanzi a questa meraviglia unicellulare trovare le parole adatte è quasi impossibile. [br] La tua deontologia professionale, tuttavia, non ti perdonerebbe il silenzio. [br] [b][color=\"blue\"]Sciamano[/color][/b]: Ti ringrazio per essere venuto. [br] Miracolosamente, riesci a biascicare qualche timida parola cordiale.",
+		"next": "6"
+	},
+	{
+		"id": "6",
+		"main": "Comprendere la materia vivente davanti ai tuoi occhi è incredibilmente difficoltoso. Questo Isgrò comunica con una lingua vecchia 4 miliardi di anni. [br] [b][color=\"red\"]Isgrorigin[/color][/b]: Mio fratello eucariota, necessito di sostentamento. Io devo sapere.",
+		"next": "7"
+	},
+	{
+		"id": "7",
+		"main": "È muovendo la sua appendice cellulare che il dialogo con te diventa possibile. Soltanto l’amore ti permette di decifrare i movimenti del suo flagello.",
+		"next": "8"
+	},
+	{
+		"id": "8",
+		"main": "Isgrorigin: Amico eucariota, cosa sono io?",
 		"actions": [
 			{
-				"text": "",
-				"next": "3"
+				"text": "Una struttura unicellulare.",
+				"next": "9",
+				"points": 0
 			},
 			{
-				"text": "",
-				"next": "3"
+				"text": "Infinite possibilità.",
+				"next": "10",
+				"points": 5
+			},
+			{
+				"text": "Sei Isgrò procariota, e non puoi essere altro.",
+				"next": "11",
+				"points": -5
 			}
 		]
 	},
 	{
-		"id": "3",
-		"panel": {
-			"text": "Panel text"
-		},
+		"id": "9",
+		"main": "Il flagello di Isgrò procariota si muove a malapena.",
+		"next": "12"
+	},
+	{
+		"id": "10",
+		"main": "In qualche modo, riesci a leggere una nota di felicità nei movimenti di Isgrò.",
+		"next": "12"
+	},
+	{
+		"id": "11",
+		"main": "Forse è meglio evitare crudele fatalismo con Isgrò. L’appendice del procariota sembra struggersi per una profonda tristezza..",
+		"next": "12"
+	},
+	{
+		"id": "12",
+		"panel": "The END",
 		"end": true
 	}
 	

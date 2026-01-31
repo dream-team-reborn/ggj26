@@ -29,7 +29,7 @@ texture = ExtResource("2_0xm2m")
 expand_mode = 2
 
 [node name="MainDialoguePanel" type="Panel" parent="." unique_id=1370484696]
-custom_minimum_size = Vector2(0, 300)
+custom_minimum_size = Vector2(0, 400)
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
