@@ -17,6 +17,9 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0xm2m")
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1772704311]
+unique_name_in_owner = true
+
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1193945739]
 unique_name_in_owner = true
 layout_mode = 1
@@ -27,34 +30,6 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_0xm2m")
 expand_mode = 2
-
-[node name="MainDialoguePanel" type="Panel" parent="." unique_id=1370484696]
-custom_minimum_size = Vector2(0, 400)
-layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 0
-
-[node name="MainDialogueLabel" type="RichTextLabel" parent="MainDialoguePanel" unique_id=839034418]
-unique_name_in_owner = true
-custom_minimum_size = Vector2(0, 300)
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme = ExtResource("3_1bvp3")
-theme_override_fonts/normal_font = ExtResource("3_h2yge")
-theme_override_fonts/bold_font = ExtResource("3_h2yge")
-theme_override_fonts/bold_italics_font = ExtResource("3_h2yge")
-theme_override_fonts/italics_font = ExtResource("3_h2yge")
-theme_override_fonts/mono_font = ExtResource("3_h2yge")
-bbcode_enabled = true
-text = "[b]Testo[/b] a caso ehi"
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=2008969898]
 layout_mode = 1
@@ -160,6 +135,36 @@ text = "Choiche 4"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="MainDialoguePanel" type="Panel" parent="." unique_id=1370484696]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -400.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="MainDialogueLabel" type="RichTextLabel" parent="MainDialoguePanel" unique_id=839034418]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("3_1bvp3")
+theme_override_fonts/normal_font = ExtResource("3_h2yge")
+theme_override_fonts/bold_font = ExtResource("3_h2yge")
+theme_override_fonts/bold_italics_font = ExtResource("3_h2yge")
+theme_override_fonts/italics_font = ExtResource("3_h2yge")
+theme_override_fonts/mono_font = ExtResource("3_h2yge")
+bbcode_enabled = true
+text = "[b]Testo[/b] a caso ehi"
+
 [node name="Panel" type="Panel" parent="." unique_id=1885413873]
 unique_name_in_owner = true
 visible = false
@@ -186,12 +191,10 @@ text = "Ciao Vitto!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1772704311]
-unique_name_in_owner = true
-
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche1" to="." method="_on_choiche_1_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche2" to="." method="_on_choiche_2_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche3" to="." method="_on_choiche_3_gui_input"]
-[connection signal="gui_input" from="MarginContainer/Choiche/Choiche4" to="." method="_on_choiche_4_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche1/Choiche1Label" to="." method="_on_choiche_1_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche2/Choiche2Label" to="." method="_on_choiche_2_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche3/Choiche3Label" to="." method="_on_choiche_3_gui_input"]
+[connection signal="gui_input" from="MarginContainer/Choiche/Choiche4/Choiche4Label" to="." method="_on_choiche_4_gui_input"]
+[connection signal="gui_input" from="MainDialoguePanel/MainDialogueLabel" to="." method="_on_gui_input"]
 [connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]
