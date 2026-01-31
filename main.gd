@@ -84,25 +84,32 @@ func _next_dialogue(action: int) -> void:
 		_setup()
 
 func _on_gui_input(event: InputEvent) -> void:
-	if event.is_action_type() and event.is_pressed():
+	var input = event as InputEventMouseButton
+	if input and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(-1)
+		
 
 func _on_choiche_1_gui_input(event: InputEvent) -> void:
-	if event.is_action_type() and event.is_pressed():
+	var input = event as InputEventMouseButton
+	if input and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(0)
 
 func _on_choiche_2_gui_input(event: InputEvent) -> void:
-	if event.is_action_type() and event.is_pressed():
+	var input = event as InputEventMouseButton
+	if input and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(1)
 
 func _on_choiche_3_gui_input(event: InputEvent) -> void:
-	if event.is_action_type() and event.is_pressed():
+	var input = event as InputEventMouseButton
+	if input and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(2)
 
 func _on_choiche_4_gui_input(event: InputEvent) -> void:
-	if event.is_action_type() and event.is_pressed():
+	var input = event as InputEventMouseButton
+	if input and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(3)
 
 func _on_panel_gui_input(event: InputEvent) -> void:
-	if event.is_action_type() and event.is_pressed():
+	var input = event as InputEventMouseButton
+	if input and input.button_index == 1 and input.is_pressed():
 		_next_dialogue(-1)
