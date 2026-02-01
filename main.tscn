@@ -64,7 +64,7 @@ anchor_right = 1.0
 offset_bottom = 512.0
 grow_horizontal = 2
 theme_override_constants/margin_left = 50
-theme_override_constants/margin_top = 50
+theme_override_constants/margin_top = 100
 theme_override_constants/margin_right = 50
 theme_override_constants/margin_bottom = 50
 
