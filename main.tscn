@@ -25,9 +25,11 @@ script = ExtResource("1_0xm2m")
 [node name="Music" type="AudioStreamPlayer" parent="." unique_id=1772704311]
 unique_name_in_owner = true
 autoplay = true
+bus = &"Music"
 
 [node name="Sound" type="AudioStreamPlayer" parent="." unique_id=580439018]
 unique_name_in_owner = true
+bus = &"Sound"
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1193945739]
 unique_name_in_owner = true

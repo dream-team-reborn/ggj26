@@ -133,6 +133,7 @@ func _next_dialogue(action: int) -> void:
 					elif condition.has("equal") and condition["equal"] == points:
 						selection = condition["next"]
 			if selection:
+				points = 0
 				selected = selection
 				_setup_dialogue()
 		elif dialogue.has("next"):
