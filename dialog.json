@@ -1,7 +1,7 @@
 [
 	{
 		"id": "0",
-		"title": "[i]Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.[/i]",
+		"title": "[i]Giorno 1: [br]Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.[/i]",
 		"next": "1",
 		"music": "sketchbook001.ogg"
 	},
@@ -222,7 +222,7 @@
 	},
 	{
 		"id": "25",
-		"title": "Isgrò, luce della mia vita, fuoco dei miei lombi. Mio peccato, anima mia. Vitello Nabokov",
+		"title": "Giorno 2: [br]Isgrò, luce della mia vita, fuoco dei miei lombi. Mio peccato, anima mia. Vitello Nabokov",
 		"next": "26"
 	},
 	{
@@ -576,7 +576,7 @@
 	},
 	{
 		"id": "106",
-		"title": "[i]Corri, Isgrò, corri! Vitello Zemeckis.[/i]",
+		"title": "[i]Giorno 3: [br]Corri, Isgrò, corri! Vitello Zemeckis.[/i]",
 		"next": "1",
 		"end": "true"
 	},
