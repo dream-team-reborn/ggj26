@@ -2,7 +2,7 @@ extends Control
 
 var dialogues: Dictionary
 var selected: Variant
-var points: int 
+var points: int
 
 var menu = load("res://menu.tscn")
 
@@ -58,6 +58,8 @@ func _setup_dialogue() -> void:
 	%Choiche3.visible = false
 	%Choiche4.visible = false
 	
+	_setup_history()
+	
 	var dialogue = dialogues[selected]
 	
 	if dialogue.has("music"):
@@ -106,6 +108,26 @@ func _setup_dialogue() -> void:
 		%Title.visible = true
 		%TitleLabel.text = dialogue["title"]
 
+func _setup_history():
+	var selected_text = ""
+	var dialogue = dialogues[selected]
+	
+	if dialogue.has("main"):
+		selected_text = dialogue["main"]
+	
+	if dialogue.has("panel"):
+		selected_text = dialogue["panel"]
+		
+	if dialogue.has("title"):
+		selected_text = dialogue["title"]
+	
+	if len(%HistoryLabel.text) == 0:
+		%HistoryLabel.text += selected_text
+	else:
+		%HistoryLabel.text += "[br][br]--------------------[br]"
+		%HistoryLabel.text += selected_text
+
+
 func _next_dialogue(action: int) -> void:
 	var dialogue = dialogues[selected]
 	if not dialogue.has("end"):
@@ -116,14 +138,17 @@ func _next_dialogue(action: int) -> void:
 				selected = dialogue["actions"][action]["next"]
 				if dialogue["actions"][action].has("points"):
 					points += dialogue["actions"][action]["points"]
+					%HistoryLabel.text += "[br][br]--------------------[br]"
+					%HistoryLabel.text += "> "
+					%HistoryLabel.text += dialogue["actions"][action]["text"]
 				_setup_dialogue()
 		elif dialogue.has("conditionals"):
 			var selection = null
 			for condition in dialogue["conditionals"]:
 				if condition.has("next"):
-					if condition.has("more") and condition["more"] > points:
+					if condition.has("more") and condition["more"] < points:
 						selection = condition["next"]
-					elif condition.has("less") and condition["less"] <= points:
+					elif condition.has("less") and condition["less"] >= points:
 						selection = condition["next"]
 					elif condition.has("equal") and condition["equal"] == points:
 						selection = condition["next"]
@@ -204,3 +229,9 @@ func _on_panel_gui_input(event: InputEvent) -> void:
 			if dialogue.has("main"):
 				%MainDialogueLabel.visible_characters = -1
 			is_playing_text = false
+
+func _on_history_button_pressed() -> void:
+	%History.visible = true
+
+func _on_close_history_button_pressed() -> void:
+	%History.visible = false

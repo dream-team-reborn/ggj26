@@ -42,13 +42,4 @@ size_flags_horizontal = 4
 theme = ExtResource("1_lti8b")
 text = "Inizia"
 
-[node name="MasksButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1769960066]
-custom_minimum_size = Vector2(350, 200)
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme = ExtResource("1_lti8b")
-text = "Maschere"
-
 [connection signal="pressed" from="MarginContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/MasksButton" to="." method="_on_masks_button_pressed"]
