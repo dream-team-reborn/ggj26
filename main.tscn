@@ -42,7 +42,7 @@ grow_vertical = 2
 expand_mode = 2
 
 [node name="MainDialoguePanel" type="Panel" parent="." unique_id=1370484696]
-custom_minimum_size = Vector2(0, 400)
+custom_minimum_size = Vector2(0, 450)
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
@@ -78,6 +78,7 @@ theme_override_fonts/italics_font = ExtResource("3_h2yge")
 theme_override_fonts/mono_font = ExtResource("3_h2yge")
 bbcode_enabled = true
 text = "[b]Testo[/b] a caso ehi"
+fit_content = true
 
 [node name="Choiche" type="Panel" parent="." unique_id=400468564]
 unique_name_in_owner = true
@@ -261,6 +262,34 @@ bbcode_enabled = true
 text = "Ciao Vitto!"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="DebugPanel" type="Panel" parent="." unique_id=915591711]
+custom_minimum_size = Vector2(100, 60)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.92200005
+anchor_right = 1.0
+anchor_bottom = 0.039
+offset_left = 39.87195
+offset_bottom = 0.063999176
+grow_horizontal = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="DebugPanel" unique_id=484580027]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="DebugLabel" type="Label" parent="DebugPanel/MarginContainer" unique_id=47153024]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("3_1bvp3")
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
 [connection signal="gui_input" from="MainDialoguePanel/MarginContainer/MainDialogueLabel" to="." method="_on_gui_input"]

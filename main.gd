@@ -8,7 +8,6 @@ var menu = load("res://menu.tscn")
 
 var is_playing_text: bool = false
 var last_letter_delta: float = 0
-var playback_index: int = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -16,26 +15,22 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	%DebugLabel.text = str(points)
+	
 	var dialogue = dialogues[selected]
 	
 	if is_playing_text and last_letter_delta > 0.05:
 		last_letter_delta = 0
 		if dialogue.has("panel"):
-			if len(dialogue["panel"]) > playback_index:
-				%PanelLabel.text += dialogue["panel"][playback_index]
-				playback_index += 1
-			else:
+			%PanelLabel.visible_characters += 1
+			if %PanelLabel.visible_characters >= len(%PanelLabel.text):
 				is_playing_text = false
-				playback_index = 0
 
-			
 		if dialogue.has("main"):
-			if len(dialogue["main"]) > playback_index:
-				%MainDialogueLabel.text += dialogue["main"][playback_index]
-				playback_index += 1
-			else:
+			%MainDialogueLabel.visible_characters += 1
+			if %MainDialogueLabel.visible_characters >= len(%MainDialogueLabel.text):
 				is_playing_text = false
-				playback_index = 0
+				
 	elif is_playing_text:
 		last_letter_delta += delta
 
@@ -79,10 +74,10 @@ func _setup_dialogue() -> void:
 		%TextureRect.texture = load("res://assets/images/" + dialogue["image"])
 	
 	if dialogue.has("main"):
-		%MainDialogueLabel.text = ""
+		%MainDialogueLabel.text = dialogue["main"]
+		%MainDialogueLabel.visible_characters = 0
 		is_playing_text = true
 		last_letter_delta = 0
-		playback_index = 0
 		
 	if dialogue.has("actions"):
 		for index in range(len(dialogue["actions"])):
@@ -102,10 +97,10 @@ func _setup_dialogue() -> void:
 					
 	if dialogue.has("panel"):
 		%Panel.visible = true
-		%PanelLabel.text = ""
+		%PanelLabel.text = dialogue["panel"]
+		%PanelLabel.visible_characters = 0
 		is_playing_text = true
 		last_letter_delta = 0
-		playback_index = 0
 		
 	if dialogue.has("title"):
 		%Title.visible = true
@@ -155,12 +150,11 @@ func _on_gui_input(event: InputEvent) -> void:
 		else:
 			var dialogue = dialogues[selected]
 			if dialogue.has("panel"):
-				%PanelLabel.text += dialogue["panel"].substr(playback_index, -1)
+				%PanelLabel.visible_characters = -1
 
 			if dialogue.has("main"):
-				%MainDialogueLabel.text += dialogue["main"].substr(playback_index, -1)
+				%MainDialogueLabel.visible_characters = -1
 			is_playing_text = false
-			playback_index = 0
 
 func _on_choiche_1_gui_input(event: InputEvent) -> void:
 	var input = event as InputEventMouseButton
@@ -205,9 +199,8 @@ func _on_panel_gui_input(event: InputEvent) -> void:
 		else:
 			var dialogue = dialogues[selected]
 			if dialogue.has("panel"):
-				%PanelLabel.text += dialogue["panel"].substr(playback_index, -1)
+				%PanelLabel.visible_characters = -1
 
 			if dialogue.has("main"):
-				%MainDialogueLabel.text += dialogue["main"].substr(playback_index, -1)
+				%MainDialogueLabel.visible_characters = -1
 			is_playing_text = false
-			playback_index = 0
