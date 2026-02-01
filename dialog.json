@@ -209,7 +209,16 @@
 	{
 		"id": "24",
 		"panel": "Ottenuta la Maschera del Primordiale.",
-		"next": "25"
+		"conditionals": [
+			  {
+				"more": 0,
+				"next": "25"
+			  },
+			  {
+				"less": 0,
+				"next": "106"
+			  }
+			] 
 	},
 	{
 		"id": "25",
@@ -219,7 +228,7 @@
 	{
 		"id": "26",
 		"image": "sconosciuto.webp",
-		"main": "???: We, sciamanino! Ci ribecchiamo!",
+		"main": "[b][color=\"red\"]???[/color][/b]: We, sciamanino! Ci ribecchiamo!",
 		"actions": [
 			{
 				"text": "Sciamanino?",
@@ -245,7 +254,7 @@
 	},
 	{
 		"id": "27",
-		"main": "???: Eccerto, come ti dovrei chiamare altrimenti? Non sei una specie di stregone?",
+		"main": "[b][color=\"red\"]???[/color][/b]: Eccerto, come ti dovrei chiamare altrimenti? Non sei una specie di stregone?",
 		"actions": [
 			{
 				"text": "Come dice lei.",
@@ -261,42 +270,42 @@
 	},
 	{
 		"id": "28",
-		"main": "???: Peffozza! Peffozza!",
+		"main": "[b][color=\"red\"]???[/color][/b]: Peffozza! Peffozza!",
 		"next": "36"
 	},
 	{
 		"id": "29",
-		"main": "???: Non ho capito che c’entra, ma ora mi piaci un po’ di più. Bravo!",
+		"main": "[b][color=\"red\"]???[/color][/b]: Non ho capito che c’entra, ma ora mi piaci un po’ di più. Bravo!",
 		"next": "36"
 	},
 	{
 		"id": "30",
-		"main": "???: Ah ah! Ma questa è casa tua, testina!",
+		"main": "[b][color=\"red\"]???[/color][/b]: Ah ah! Ma questa è casa tua, testina!",
 		"next": "31"
 	},
 	{
 		"id": "31",
-		"main": "???: Vabbè. Contento ora?",
+		"main": "[b][color=\"red\"]???[/color][/b]: Vabbè. Contento ora?",
 		"next": "36"
 	},
 	{
 		"id": "32",
-		"main": "???: Mamma mia che strazio.",
+		"main": "[b][color=\"red\"]???[/color][/b]: Mamma mia che strazio.",
 		"next": "33"
 	},
 	{
 		"id": "33",
-		"main": "???: Fammi accendere la luce, va. Che qua non sappiamo fare manco quello.",
+		"main": "[b][color=\"red\"]???[/color][/b]: Fammi accendere la luce, va. Che qua non sappiamo fare manco quello.",
 		"next": "36"
 	},
 	{
 		"id": "34",
-		"main": "???: Boh. Ok. Così. A caso.",
+		"main": "[b][color=\"red\"]???[/color][/b]: Boh. Ok. Così. A caso.",
 		"next": "35"
 	},
 	{
 		"id": "35",
-		"main": "???: Sei fortunato se in futuro tornerò in questo postaccio.",
+		"main": "[b][color=\"red\"]???[/color][/b]: Sei fortunato se in futuro tornerò in questo postaccio.",
 		"next": "36"
 	},
 	{
@@ -314,6 +323,267 @@
 		"id": "38",
 		"image": "isgravato.webp",
 		"main": "La luce è finalmente tornata nello studio. Davanti a te, sorretto da due poderose colonne d’Ercole, si erge lui: Isgravato. La sua aura magnetica ti obbliga a osservarlo.",
+		"next": "39"
+	},
+	{
+		"id": "39",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: sdighedesdaghede!",
+		"next": "40"
+	},
+	{
+		"id": "40",
+		"main": "Che fisico maestoso. Che intelletto sopraffino.",
+		"next": "41"
+	},
+	{
+		"id": "41",
+		"main": "Quanto è forte l’effetto della bellezza nell’animo umano! E che bellezza capricciosa!",
+		"next": "42"
+	},
+	{
+		"id": "42",
+		"main": "Il plesso solare di Isgrò è scolpito nel marmo più puro. I suoi piedi veloci sarebbero capaci di percorrere la lunghezza dell’equatore in poche ore. La forza dei suoi bicipiti potrebbe fermare l’avanzata furiosa di un toro – o di un uomo che può diventarne uno.",
+		"next": "43"
+	},
+	{
+		"id": "43",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Sto… sto…! ",
+		"next": "44"
+	},
+	{
+		"id": "44",
+		"main": "Eccolo, sta arrivando. Non puoi fermare l’avanzata del re.",
+		"next": "45"
+	},
+	{
+		"id": "45",
+		"main": "Come Venere che si innamora di Adone addormentato, il tuo animo è pervaso da un’invincibile tenerezza. Isgrò gonfia il petto e si prepara a lanciare un urlo… senti l’istinto irrefrenabile di gridare con lui. ",
+		"actions": [
+			{
+				"text": "STO SBORRANDO!",
+				"next": "46",
+				"points": -10
+			},
+			{
+				"text": "STO VENENDO!",
+				"next": "48",
+				"points": -20
+			},
+			{
+				"text": "Stringi i denti e rimani in silenzio.",
+				"next": "49",
+				"points": 5
+			}
+		]
+	},
+	{
+		"id": "46",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: NOOO!!! FAI SILENZIOOOOOO!!! PORCA TROIA!",
+		"next": "47"
+	},
+	{
+		"id": "47",
+		"main": "Hai rovinato tutto. Era il suo momento di gloria e l’hai rovinato. È il momento di accettare che stai vivendo una vita dissoluta e piena di vergogna.",
+		"next": "52"
+	},
+	{
+		"id": "48",
+		"main": "Isgrò ti squadra con occhi da assassino. Non solo hai rovinato il suo momento di gloria, ma hai anche sbagliato la battuta. Non potrai mai mondare quest’onta.",
+		"next": "52"
+	},
+	{
+		"id": "49",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: STO SBORRANDO! STO SBORRANDO!",
+		"next": "50"
+	},
+	{
+		"id": "50",
+		"main": "Il tuo animo affamato si è rifocillato in paradiso. Non c’è felicità più grande di questa.",
+		"next": "51"
+	},
+	{
+		"id": "51",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Ah ah ah! Molto meglio!",
+		"next": "52"
+	},
+	{
+		"id": "52",
+		"main": "La tua mente limitata non capirebbe le macchinazioni dentro la mente di Isgrò neanche dopo millenni di meditazione. Non importa. L’uomo non è nato per toccare il Sole.",
+		"next": "53"
+	},
+	{
+		"id": "53",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: In ogni caso…",
+		"next": "54"
+	},
+	{
+		"id": "54",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Io. Te. Questo mondo in cui viviamo. A quale scopo continuiamo a esistere?",
+		"next": "55"
+	},
+	{
+		"id": "55",
+		"main": "Non sei certo di poter rispondere a domande di questa portata. Non con Isgrò.",
+		"next": "56"
+	},
+	{
+		"id": "56",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: La verità è che sono stanco e vorrei andare a letto. Ormai è da ore che il sole è tramontato, non ci capisco più un cazzo e nel mio stomaco galleggiano solo kebab e fin troppo caffè.",
+		"next": "57"
+	},
+	{
+		"id": "57",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: A proposito, come sta la tua testa?",
+		"actions": [
+			{
+				"text": "È un po’ leggera in effetti.",
+				"next": "58",
+				"points": 10
+			},
+			{
+				"text": "Tutta sborrata.",
+				"next": "61",
+				"points": -10
+			},
+			{
+				"text": "Non importa. Io sono qui per aiutarti.",
+				"next": "62",
+				"points": 20
+			},
+			{
+				"text": "sdighedesdaghede!",
+				"next": "65",
+				"points": 0
+			}
+		]
+	},
+	{
+		"id": "58",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Va bene così, nessuno all’infuori di me è perfetto.",
+		"next": "59"
+	},
+	{
+		"id": "59",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Prenditi cura di te e pensami ogni tanto.",
+		"next": "60"
+	},
+	{
+		"id": "60",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Non ti chiedo altro.",
+		"next": "66"
+	},
+	{
+		"id": "61",
+		"main": "Isgrò ora ti reputa uno pseudo-analfabeta privo di giudizio, più vicino alla scimmia che all’uomo. Ti consoli pensando che sopporti questa umiliazione per il suo bene.",
+		"next": "66"
+	},
+	{
+		"id": "62",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Non aiutare gli altri se non puoi aiutare te stesso. Non puoi digerire il mio kebab con salsa piccante usando il tuo stomacuccio.",
+		"next": "63"
+	},
+	{
+		"id": "63",
+		"main": "(Non lo ammetterà, ma Isgrò ha apprezzato la tua premura.)",
+		"next": "66"
+	},
+	{
+		"id": "65",
+		"main": "sdighedesdaghede! sdighedesdaghede! sdighedesdaghede! sdighedesdaghede!",
+		"next": "70"
+	},
+	{
+		"id": "66",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Devi sapere che è davanti alla perfezione che impariamo ad apprezzare i difetti altrui.",
+		"next": "67"
+	},
+	{
+		"id": "67",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Osserva la mia forma e impara ad amare il prossimo. Brutto coglione egocentrico.",
+		"actions": [
+			{
+				"text": "Si.",
+				"next": "68",
+				"points": 10
+			},
+			{
+				"text": "No.",
+				"next": "69",
+				"points": -20
+			},
+			{
+				"text": "Per favore, torna in te.",
+				"next": "70",
+				"points": 20
+			},
+			{
+				"text": "Mi manchi tanto tanto tanto.",
+				"next": "71",
+				"points": -20
+			}
+		]
+	},
+	{
+		"id": "68",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Bravo, cazzo.",
+		"next": "72"
+	},
+	{
+		"id": "69",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Perirai nel mondo che hai creato con le tue stesse mani.",
+		"next": "72"
+	},
+	{
+		"id": "70",
+		"main": "Isgrò non risponde. Non sembra avere capito cosa intendi.",
+		"next": "72"
+	},
+	{
+		"id": "71",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: Portami nel cuore e non sarai mai solo.",
+		"next": "72"
+	},
+	{
+		"id": "72",
+		"main": "Il momento di salutarci è arrivato. Salutiamo Isgrò!",
+		"actions": [
+			{
+				"text": "Ciao, Isgrò!",
+				"next": "73",
+				"points": 0
+			},
+			{
+				"text": "Sempre sia lodato.",
+				"next": "73",
+				"points": 0
+			},
+			{
+				"text": "sdighedesdaghede!",
+				"next": "73",
+				"points": 20
+			}
+		]
+	},
+	{
+		"id": "73",
+		"main": "Isgrò ha percepito i tuoi stati d’animo e l’amore che provi per lui. Presto acquisirà una nuova forma.",
+		"next": "74"
+	},
+	{
+		"id": "74",
+		"panel": "Ottenuta la Maschera Sgrava.",
+		"end": "true"
+	},
+	{
+		"id": "106",
+		"title": "[i]Corri, Isgrò, corri! Vitello Zemeckis.[/i]",
+		"next": "1",
+		"end": "true"
+	},
+	{
+		"id": "107",
+		"image": "umamusume.webp",
+		"title": "Oggi è il primo giorno in accademia per Isgrò. Il suo viaggio nella Massoni Series inizia con una corsa in amichevole con le altre nuove promesse dell’accademia.",
 		"end": "true"
 	}
 ]

@@ -117,9 +117,9 @@ func _next_dialogue(action: int) -> void:
 				if dialogue["actions"][action].has("points"):
 					points += dialogue["actions"][action]["points"]
 				_setup_dialogue()
-		elif dialogue.has("conditions"):
+		elif dialogue.has("conditionals"):
 			var selection = null
-			for condition in dialogue["conditions"]:
+			for condition in dialogue["conditionals"]:
 				if condition.has("next"):
 					if condition.has("more") and condition["more"] > points:
 						selection = condition["next"]
