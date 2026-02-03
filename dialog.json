@@ -1,7 +1,7 @@
 [
 	{
 		"id": "0",
-		"title": "[i]Giorno 1: [br]Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. Vitello Tolstoy.[/i]",
+		"title": "[i]Giorno 1: [br]Tutti gli Isgrò felici si somigliano; ogni Isgrò infelice è invece infelice a modo suo. [br]- Vitello Tolstoy.[/i]",
 		"next": "1",
 		"music": "sketchbook001.ogg"
 	},
@@ -12,18 +12,18 @@
 	},
 	{
 		"id": "2",
-		"panel": "Semplice. Anonima. Micrometrica creazione anucleata. Senza respiro, senza impeto, priva di viscere e sangue. Scevra di sogni e inutili ambizioni.",
+		"panel": "Semplice. Anonima. Micrometrica creazione anucleata. [br]Senza respiro, senza impeto, priva di viscere e sangue. Scevra di sogni e inutili ambizioni.",
 		"next": "3"
 	},
 	{
 		"id": "3",
-		"panel": "Questa è la prima struttura. Opinabilmente, la struttura migliore possibile. Incapace di provare gioia e, pertanto, immune al dolore che accompagna ogni esistenza.",
+		"panel": "Questa è la prima struttura. Opinabilmente, la struttura migliore possibile. Incapace di provare gioia e, pertanto, immune al dolore dell'esistenza.",
 		"next": "4"
 	},
 	{
 		"id": "4",
-		"image": "procariota.webp",
-		"main": "Poi, qualcosa accadde. Davanti a te, un profluvio di infinite possibilità. L’acme della creazione. Isgrò procariota, l’esempio più alto di perfezione.",
+		"image": "Procariota.webp",
+		"main": "Poi, qualcosa accadde. Davanti a te, un profluvio di infinite possibilità. L’acme della creazione. [br]Isgrò procariota, l’esempio più alto di perfezione.",
 		"next": "5"
 	},
 	{
@@ -49,7 +49,7 @@
 	},
 	{
 		"id": "8",
-		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Mio fratello eucariota, necessito di sostentamento. Io devo sapere.",
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Mio amico eucariota, necessito di sostentamento. Io devo sapere.",
 		"next": "9"
 	},
 	{
@@ -59,7 +59,7 @@
 	},
 	{
 		"id": "10",
-		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, cosa sono io?",
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Amico eucariota, cosa sono io?",
 		"actions": [
 			{
 				"text": "Una struttura unicellulare.",
@@ -100,7 +100,7 @@
 	},
 	{
 		"id": "15",
-		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, cosa sei tu?",
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Amico eucariota, cosa sei tu?",
 		"actions": [
 			{
 				"text": "Un tuo amico.",
@@ -131,7 +131,7 @@
 	},
 	{
 		"id": "17",
-		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, cos’è l’amore?",
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Amico eucariota, cos’è l’amore?",
 		"actions": [
 			{
 				"text": "L’argotone è amore, l’argotone è vita.",
@@ -162,12 +162,12 @@
 	},
 	{
 		"id": "19",
-		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Voglio migliorare per te, amico eucariota. Anche se ciò significa dimenticare chi sono. La sua evoluzione è imminente.",
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Voglio migliorare per te, amico eucariota. Anche se ciò significa dimenticare chi sono. La sua evoluzione è imminente.",
 		"next": "22"
 	},
 	{
 		"id": "20",
-		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Non so cosa sia la dignità, ma sento una grande affinità con questo naso rosso.Il flagello di Isgrò si muove curioso. La sua brama di conoscenza è incontenibile. La sua evoluzione è imminente.",
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Non so cosa sia la dignità, ma sento una grande affinità con questo naso rosso.Il flagello di Isgrò si muove curioso. La sua brama di conoscenza è incontenibile. La sua evoluzione è imminente.",
 		"next": "22"
 	},
 	{
@@ -177,7 +177,7 @@
 	},
 	{
 		"id": "22",
-		"main": "[b][color=\"red\"]Isgrorigin[/color][/b]: Amico eucariota, tu mi vuoi bene?",
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Amico eucariota, tu mi vuoi bene?",
 		"actions": [
 			{
 				"text": "Ti amo come un padre.",
@@ -208,7 +208,7 @@
 	},
 	{
 		"id": "24",
-		"panel": "Ottenuta la Maschera del Primordiale.",
+		"panel": "Ottenuta la [b]Maschera del Primordiale.[/b]",
 		"conditionals": [
 			  {
 				"more": 0,
@@ -216,19 +216,20 @@
 			  },
 			  {
 				"less": 0,
-				"next": "106"
+				"next": "75"
 			  }
 			] 
 	},
 	{
 		"id": "25",
-		"title": "Giorno 2: [br]Isgrò, luce della mia vita, fuoco dei miei lombi. Mio peccato, anima mia. Vitello Nabokov",
+		"title": "[i]Giorno 2: [br]Isgrò, luce della mia vita, fuoco dei miei lombi. Mio peccato, anima mia. [br]- Vitello Nabokov[/i]",
 		"next": "26"
 	},
 	{
 		"id": "26",
 		"image": "sconosciuto.webp",
-		"main": "[b][color=\"red\"]???[/color][/b]: We, sciamanino! Ci ribecchiamo!",
+		"main": "[b][color=\"red\"]???[/color][/b]: Belin, sciamanino! Ci ribecchiamo!",
+		"music": "sketchbook014.ogg",
 		"actions": [
 			{
 				"text": "Sciamanino?",
@@ -310,24 +311,25 @@
 	},
 	{
 		"id": "36",
-		"main": "Con passo pesante, l’uomo si avvicina al pulsante della luce. La sua visione notturna super-sviluppata gli permette di posare un piede davanti all’altro, senza incertezze, anche nelle tenebre più profonde. Il piacere di chiamarsi Isgrò.",
+		"main": "Con passo pesante, l’uomo si avvicina al pulsante della luce. [br]La sua visione notturna iper-sviluppata gli permette di posare un piede davanti all’altro, senza incertezze, anche nelle tenebre più profonde. [br]Il piacere di chiamarsi Isgrò.",
 		"next": "37"
 	},
 	{
 		"id": "37",
-		"main": "[suono di interruttore] *click*",
+		"main": "[b]click[/b]",
 		"next": "38",
 		"sound": "UIClick_BLEEOOP_Super_Switch.ogg"
 	},
 	{
 		"id": "38",
 		"image": "isgravato.webp",
-		"main": "La luce è finalmente tornata nello studio. Davanti a te, sorretto da due poderose colonne d’Ercole, si erge lui: Isgravato. La sua aura magnetica ti obbliga a osservarlo.",
+		"music": "sketchbook012.ogg",
+		"main": "La luce è finalmente tornata nello studio. Davanti a te, sorretto da due poderose colonne d’Ercole, si erge lui: Isgrò. La sua aura magnetica ti obbliga a osservarlo.",
 		"next": "39"
 	},
 	{
 		"id": "39",
-		"main": "[b][color=\"red\"]Isgravato[/color][/b]: sdighedesdaghede!",
+		"main": "[b][color=\"red\"]Isgravato[/color][/b]: [b]sdighedesdaghede![/b]",
 		"next": "40"
 	},
 	{
@@ -342,7 +344,7 @@
 	},
 	{
 		"id": "42",
-		"main": "Il plesso solare di Isgrò è scolpito nel marmo più puro. I suoi piedi veloci sarebbero capaci di percorrere la lunghezza dell’equatore in poche ore. La forza dei suoi bicipiti potrebbe fermare l’avanzata furiosa di un toro – o di un uomo che può diventarne uno.",
+		"main": "Il plesso solare di Isgrò è scolpito nel marmo più puro. [br]I suoi piedi veloci sarebbero capaci di percorrere la lunghezza dell’equatore in poche ore. [br]La forza dei suoi bicipiti potrebbe fermare l’avanzata furiosa di un toro – o di un uomo che può diventarne uno.",
 		"next": "43"
 	},
 	{
@@ -489,7 +491,7 @@
 	},
 	{
 		"id": "65",
-		"main": "sdighedesdaghede! sdighedesdaghede! sdighedesdaghede! sdighedesdaghede!",
+		"main": "[b]sdighedesdaghede! sdighedesdaghede! sdighedesdaghede! sdighedesdaghede![/b]",
 		"next": "70"
 	},
 	{
@@ -571,19 +573,1235 @@
 	},
 	{
 		"id": "74",
-		"panel": "Ottenuta la Maschera Sgrava.",
-		"end": "true"
+		"panel": "Ottenuta la [b]Maschera Sgrava.[/b]",
+		"conditionals": [
+			  {
+				"more": 0,
+				"next": "106"
+			  },
+			  {
+				"less": 0,
+				"next": "138"
+			  }
+			] 
+	},
+	{
+		"id": "75",
+		"title": "[i] Giorno 3: [br] Quando Isgrò una mattina nel suo letto si svegliò da sogni inquieti, si ritrovò trasformato in un immane insetto. [br]- Vitello Kafka",
+		"next": "76",
+	},
+	{
+		"id": "76",
+		"panel": "Purtroppo non tutte le ciambelle escono col buco. E, fatto ancora più avvilente, non tutti gli Isgrò escono sgravati.",
+		"next": "77"
+	},
+	{
+		"id": "77",
+		"panel": "Nella vita c’è sempre chi, vuoi per difetti caratteriali o per la crudele disposizione del mondo, non riesce in ciò che si prefigge di fare. È la dura legge della giungla sotto cui cresce ogni piccolo Isgrò.",
+		"next": "78"
+	},
+	{
+		"id": "78",
+		"panel": "Felicità e serenità fanno parte di quel mondo lontano dove soltanto i fortunati possono porre piede e piantare salde radici. Isgrò non è solitamente il benvenuto nella terra dorata.",
+		"next": "79"
+	},
+	{
+		"id": "79",
+		"panel": "[b][color=\"red\"]???[/color][/b]: …",
+		"next": "80"
+	},
+	{
+		"id": "80",
+		"music": "sketchbook003.ogg",
+		"image": "sconosciuto.webp",
+		"main": "Questa triste storia si è ripetuta un’altra volta. Il nostro Isgrò procariota non è uscito col buco e si è tramutato in qualcosa di deprecabile.",
+		"next": "81"
+	},
+	{
+		"id": "81",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Signor Sciamano, i patimenti dell’impiego continuano a opprimermi… e il naso rosso diventa sempre più grosso…",
+				"actions": [
+			{
+				"text": "Brutta storia.",
+				"next": "82",
+				"points": -5
+			},
+			{
+				"text": "Ci sta.",
+				"next": "82",
+				"points": -20
+			},
+			{
+				"text": "Capisco.",
+				"next": "82",
+				"points": -10
+			},
+			{
+				"text": "Hai qualche piano per la Naspi?",
+				"next": "82",
+				"points": 5
+			}
+		]
+	},
+	{
+		"id": "82",
+		"main": "Il dramma che affligge il nostro Isgrò è un dolore tanto comune da essere risibile. Tanto diffuso che, in un mondo migliore, ogni società si sarebbe riunita alla ricerca di una soluzione che andasse bene per tutti.",
+		"next": "83"
+	},
+	{
+		"id": "83",
+		"main": "Eppure non è così. Il successo di una specie non si misura valutando la felicità e il benessere dei singoli individui, ergo tutti gli Isgrò e i NonIsgrò senza buco continueranno a sgobbare fino a lustrarsi le palle e finché non schiatteranno sotto il peso dei loro rimpianti. Il mondo ideale è molto, molto lontano.",
+		"next": "84"
+	},
+	{
+		"id": "84",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Sto tanto male. Cosa posso fare?",
+				"actions": [
+			{
+				"text": "Cerca un capro espiatorio. Le altre persone sono sempre la causa di ogni tuo male.",
+				"next": "85",
+				"points": 0
+			},
+			{
+				"text": "Hai mai pensato di essere tu il problema?",
+				"next": "90",
+				"points": -10
+			},
+			{
+				"text": "Hai qualche piano per la Naspi?",
+				"next": "91",
+				"points": 5
+			}
+		]
+	},
+	{
+		"id": "85",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Un capro espiatorio…",
+				"actions": [
+			{
+				"text": "Colpa dei capitalisti.",
+				"next": "86",
+				"points": 20
+			},
+			{
+				"text": "Colpa del tuo capo.",
+				"next": "87",
+				"points": 10
+			},
+			{
+				"text": "Colpa del tuo vicino di casa.",
+				"next": "88",
+				"points": 5
+			},
+			{
+				"text": "Colpa mia.",
+				"next": "13",
+				"points": -10
+			}
+		]
+	},
+	{
+		"id": "86",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Capitalisti bastardi! Ovviamente quello senza capitale sono proprio io!",
+		"next": "91"
+	},
+	{
+		"id": "87",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Capo bastardo! Non capisce mai un cazzo e me la mette sempre nel culo!",
+		"next": "91"
+	},
+	{
+		"id": "88",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Vicino bastardo! In un modo o nell’altro mi deve infastidire per forza!",
+		"next": "91"
+	},
+	{
+		"id": "89",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Sciamano bastardo! Non voglio parlare dei miei sentimenti!",
+		"next": "91"
+	},
+	{
+		"id": "90",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Hai mai pensato di cambiare mestiere?",
+		"next": "91"
+	},
+	{
+		"id": "91",
+		"main": "…",
+		"next": "92"
+	},
+	{
+		"id": "92",
+		"main": "Il dolore di Isgrò è implacabile. Il ricordo di quand’era un giovane procariota innocente è ancora vivido dentro di te. Un Isgrò diverso che ancora credeva nell’amore.",
+		"next": "93"
+	},
+	{
+		"id": "93",
+		"main": "Vuoi fare qualcosa per lui",
+				"actions": [
+			{
+				"text": "Consiglia l’argotone.",
+				"next": "94",
+				"points": 5
+			},
+			{
+				"text": "Consiglia lo spidifen.",
+				"next": "95",
+				"points": 5
+			},
+			{
+				"text": "Rimani in silenzio. Isgrò è senza speranza.",
+				"next": "97",
+				"points": -10
+			}
+		]
+	},
+	{
+		"id": "94",
+		"main": "Argotone. Miscela purissima (n.b. non sono un medico) di argento vitellinato ed efedrina. Stando a Wikipedia, un tempo usavano l’argento vitellinato (chiamato anche “argento proteinato” o “argento metellinato”) per trattare la gonorrea. Ora è un decongestionante nasale e un flegetonte per la gola. A ogni soffiata di naso il fazzoletto si macchia di un marrone insalubre. Argotone è cuore e iper-sensibilità emotiva. Molto buono.",
+		"next": "96"
+	},
+	{
+		"id": "95",
+		"main": "Spidifen. Ibuprofene e altre sostanze nocive mescolate in una polverina miracolosa. Un toccasana per mal di testa e reumatismi vari. A quanto pare all’acquisto è richiesta la ricetta medica ma, proprio come per la Tachipirina 1000, a nessuno importa di rispettare la legge. Tutte le persone che lo hanno provato non ne hanno più potuto fare a meno. Lo Spidifen è mente, stabilità e lucidità contemplativa. Molto buono.",
+		"next": "96"
+	},
+	{
+		"id": "96",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Guardi, non sono molto interessato alle droghe ricreative…",
+		"next": "98"
+	},
+	{
+		"id": "97",
+		"main": "Isgrò cerca di nascondere i tremori. Il tuo silenzio lo ha sconvolto. Avresti dovuto amare di più Isgrò.",
+		"next": "98"
+	},
+	{
+		"id": "98",
+		"main": "…",
+		"next": "99"
+	},
+	{
+		"id": "99",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Sciamano, rispondi a questo. Secondo te sono un insetto da schiacciare o un Napoleone da emulare?",
+				"actions": [
+			{
+				"text": "Sei un Isgrò da amare.",
+				"next": "100",
+				"points": 15
+			},
+			{
+				"text": "Sei un uomo come gli altri, tormentato da leggi inventate e da miti intersoggettivi.",
+				"next": "101",
+				"points": 10
+			},
+			{
+				"text": "Sei un superuomo destinato a portare progresso all’umanità.",
+				"next": "102",
+				"points": -5
+			},
+			{
+				"text": "Sei un coglione. Anzi. Sei coglione E genovese. E anche un popi-popi.",
+				"next": "100",
+				"points": -30
+			}
+		]
+	},
+	{
+		"id": "100",
+		"main": "Isgrò è troppo stanco per commentare. È arrivato per lui il momento della nanna.",
+		"next": "101"
+	},
+	{
+		"id": "101",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]: Essere assolto da responsabilità proibitive mi consola. Sono di nuovo a terra con gli altri esseri umani. Eppure…",
+		"next": "103"
+	},
+	{
+		"id": "102",
+		"main": "[b][color=\"red\"]Il Disgroziato[/color][/b]:  Anche da superuomo, non posso realizzare ciò che desidero. Basta uno stronzo arancione per rovinare tutto. Che mondo di merda.",
+		"next": "103"
+	},
+	{
+		"id": "103",
+		"main": "Non hai più parole da offrire a Isgrò. La sua figura derelitta siede su un piccolo sgabello di fronte a te, cercando conforto nella tua presenza. Per favore, offri calore e amore a Isgrò.",
+		"next": "104"
+	},
+	{
+		"id": "104",
+		"main": "L’animo tormentato di Isgrò si contorce nel dubbio. Presto acquisirà una nuova forma.",
+		"next": "105"
+	},
+	{
+		"id": "105",
+		"main": "Ottenuta la [b]Maschera del Delitto e della Pena[/b].",
+		"conditionals": [
+			  {
+				"more": 0,
+				"next": "162"
+			  },
+			  {
+				"less": 0,
+				"next": "178"
+			  }
+			] 
 	},
 	{
 		"id": "106",
-		"title": "[i]Giorno 3: [br]Corri, Isgrò, corri! Vitello Zemeckis.[/i]",
-		"next": "1",
-		"end": "true"
+		"title": "[i]Giorno 3: [br]Corri, Isgrò, corri! [br]- Vitello Zemeckis.[/i]",
+		"next": "107"
 	},
 	{
 		"id": "107",
+		"music": "sketchbook012.ogg",
+		"panel": "Oggi è il primo giorno in accademia per Isgrò. Il suo viaggio nella Massoni Series inizia con una corsa in amichevole con le altre nuove promesse dell’accademia.",
+		"next": "108"
+	},
+	{
+		"id": "108",
+		"panel": "[b][color=\"red\"]???[/b][/color]: Aaah… ma che… aaaa… sto morendo… !!!",
+		"next": "109"
+	},
+	{
+		"id": "109",
+		"panel": "Romantic IsgRainbow sfreccia a massima velocità lungo il tracciato fin dall’inizio della gara, piazzandosi in prima posizione e mantenendo il suo dominio con rigore marziale e un impeto esplosivo degno di un vulcano.",
+		"next": "110"
+	},
+	{
+		"id": "110",
+		"panel": "Gli spettatori fremono di eccitazione mentre osservano il favorito conquistare il primato. Tra la folla circolano voci sulla nascita di una nuova stella della corsa.",
+		"next": "111"
+	},
+	{
+		"id": "111",
+		"panel": "Un grido entusiasta infrange il cielo. Il mondo intero trema mentre Romantic IsgRainbow supera la linea del traguardo come indiscusso vincitore. “Isgrò first, the rest nowhere”.",
+		"next": "112"
+	},
+	{
+		"id": "112",
+		"panel": "E tu, in tutto ciò, chi sei? Qual è il tuo ruolo nella storia di Romantic IsgRainbow da meritarsi una menzione nelle pagine della sua leggenda? Forse è addirittura tra i più importanti. Dove Romantic IsgRainbow ha offerto fervide promesse e passati irti di sacrifici, tu hai osato scrivere la prima frase.",
+		"next": "113"
+	},
+	{
+		"id": "113",
+		"panel": "Tu sei sempre stato il suo primo fan. Nessun altro, tra gli spalti, offre all’atleta più supporto disinteressato e una più bruciante passione. Ciò che arde in te è l’orgoglio.",
+		"next": "114"
+	},
+	{
+		"id": "114",
+		"panel": "Nessuno ti rende più orgoglioso di Isgrò.",
+		"next": "115"
+	},
+	{
+		"id": "115",
+		"panel": "La gara è finita. La folla, esausta dopo il suo tifo concitato, si infrange e si divide. Rimani solo tu.",
+		"next": "116"
+	},
+	{
+		"id": "116",
 		"image": "umamusume.webp",
-		"title": "Oggi è il primo giorno in accademia per Isgrò. Il suo viaggio nella Massoni Series inizia con una corsa in amichevole con le altre nuove promesse dell’accademia.",
+		"main": "Romantic IsgRainbow… no, Isgrò si avvicina a te. Siete soli.",
+		"next": "117"
+	},
+	{
+		"id": "117",
+		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Hai visto?",
+		"next": "118"
+	},
+	{
+		"id": "118",
+		"main": "Naturalmente, la risposta può essere soltanto una.",
+		"actions": [
+			{
+				"text": "Sei stato magnifico.",
+				"next": "119",
+				"points": 0
+			},
+			{
+				"text": "Non male, ma la prossima volta sarai ancora più bravo.",
+				"next": "120",
+				"points": 0
+			}
+		]
+	},
+	{
+		"id": "119",
+		"main": "Isgrò ti ringrazia con un sorriso a 32 denti.",
+		"next": "122"
+	},
+	{
+		"id": "120",
+		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]:  Belin, ma per forza? Ma farmi complimenti normali no?",
+		"next": "121"
+	},
+	{
+		"id": "121",
+		"main": "Le sue parole potrebbero sembrare truci, ma l’espressione gentile sul suo viso tradisce i suoi veri sentimenti.",
+		"next": "122"
+	},
+	{
+		"id": "122",
+		"main": "Dalla lucentezza nel suo sguardo, sembra che Isgrò abbia qualcosa di importante da dirti. Agendo di puro istinto, fai un voto di silenzio e ti prepari ad ascoltare religiosamente la voce della tua stella.",
+		"next": "123"
+	},
+	{
+		"id": "123",
+		"music": "sketchbook004.ogg",
+		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Per tutto questo tempo, tu sei stato con me. Per tutto questo tempo, tu hai creduto in me. Per tutto questo tempo, mi hai abbracciato nei momenti più tristi e hai condiviso la mia gioia nei momenti più felici.",
+		"next": "124"
+	},
+	{
+		"id": "124",
+		"main": "La voce di Isgrò fluisce elegante e dignitosa, proprio come il Bisagno dopo una forte pioggia: impetuoso ma gentile. Un fiume che dona la vita e accende i cuori.",
+		"next": "125"
+	},
+	{
+		"id": "125",
+		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Finché vivrò, non dimenticherò mai la tua presenza al mio fianco durante questi anni. Anche se le nostre strade finiranno per dividersi. Anche dopo la morte. Qualunque cosa accada.",
+		"next": "126"
+	},
+	{
+		"id": "126",
+		"main": "Isgrò scuote la testa in segno di dissenso.",
+		"next": "127"
+	},
+	{
+		"id": "127",
+		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: No, perdona le mie parole. Sono accuse ingiustificate verso la persona che ha sempre creduto in me.",
+		"next": "128"
+	},
+	{
+		"id": "128",
+		"main": "Isgrò ti guarda dritto negli occhi, il suo sguardo dolce come l’ambrosia.",
+		"next": "129"
+	},
+	{
+		"id": "129",
+		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Ora e per sempre, promettimi che saremo insieme. Voglio che tu, da qui fino all’eternità, diventi la mia stella polare. In cambio, giuro di fare lo stesso per te.",
+		"next": "130"
+	},
+	{
+		"id": "130",
+		"main": "Per una ragazza-cavallo, le stelle sono il simbolo più grande della speranza e dell’ambizione. Ciò significa, senza mezzi termini, che giurare di assumere per qualcun altro il ruolo della stella polare – la bussola celeste, per secoli la salvezza di chi si perdeva in mare – è il simbolo della più alta devozione. Perché di stella polare ce ne può essere una sola.",
+		"next": "131"
+	},
+	{
+		"id": "131",
+		"main": "Per legge di natura, tu e Isgrò avreste sempre guardato lo stesso cielo con occhi diversi. La vostra era la promessa di cercare l’altro nel cielo notturno e di ritrovarlo nella vastità del firmamento. Uniti, qualunque cosa accada.",
+		"next": "132"
+	},
+	{
+		"id": "132",
+		"main": "Uniti, qualunque cosa accada.",
+		"next": "133"
+	},
+	{
+		"id": "133",
+		"panel": "Isgrò ti sorride con affetto. Ti chiede se volete passare il resto della giornata insieme; per festeggiare la sua prima, grande vittoria, afferma lui. Sai bene che non è soltanto questa la ragione. Naturalmente, non puoi che accettare.",
+		"next": "134"
+	},
+	{
+		"id": "134",
+		"panel": "Passano i secondi. E poi i minuti. E poi le ore. E infine si fa sera. [br]Vi trovate sulle sponde del grande fiume Bisagno, impetuoso e gentile. Nello stesso istante, alzate entrambi lo sguardo, alla ricerca dell’altra stella polare dipinta sulla tela del cielo.",
+		"next": "135"
+	},
+	{
+		"id": "135",
+		"panel": "In quella serata speciale, solo tu e Isgrò, nel firmamento brillavano il doppio delle stelle del solito.",
+		"next": "136"
+	},
+	{
+		"id": "136",
+		"panel": "Il cuore di Isgrò batte con l’intensità di mille cavalle. Presto acquisirà una nuova forma.",
+		"next": "137"
+	},
+	{
+		"id": "137",
+		"panel": "Ottenuta la [b]Maschera della Devozione.[/b]",
+		"next": "198"
+	},
+	{
+		"id": "138",
+		"title": "[i]Giorno 3:[br] «Cantami, o Diva, del pelide Isgrò[br] l'ira funesta che infiniti addusse lutti[br] ai Calabresi»[br] - UomeroValigia[/i]",
+		"next": "139"
+	},
+	{
+		"id": "139",
+		"panel": "Nella vita ci sono poche certezze. Una di queste è che i calabresi fanno sempre un lavoro di merda.",
+		"next": "140"
+	},
+	{
+		"id": "140",
+		"music": "sketchbook005.ogg",
+		"image": "mastropasqua.webp",
+		"main": "Con occhi di brace e cipiglio che promette brutti quarti d’ora, Isgrò si mette a quattro zampe e scruta con irriverenza, come un uccello da preda alla ricerca del pasto, il disastro compiuto tempo addietro al lavello di casa tua dall'entourage di calabresi che hai osato pagare per i loro servizi di riparazione.",
+		"next": "141"
+	},
+	{
+		"id": "141",
+		"main": "Ogni imperfezione è una sbuffata. Ogni negligenza è un’offesa all’altissimo. Ogni singolo, minuscolo errore è una nuova ingiuria diretta alle madri di suddetti operai calabresi, assai spesso paragonate ad australopitechi e altri primati più moderni.",
+		"next": "142"
+	},
+	{
+		"id": "142",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: E porca di quella madonna puttana però, a quei calabresi DI MERDA non dovrebbe essere concesso riprodursi.",
+		"next": "143"
+	},
+	{
+		"id": "143",
+		"main": "Osservi in silenzio i tentativi di Isgrò di salvare il salvabile di ciò che rimane del tuo lavello. Non ti è ben chiaro cosa stia facendo; l’unica lingua che senti uscire dalle sue fauci è una sferzata di ferocia e violenza. La tua unica speranza è che Isgrò non decida di riversare le sue ire su di te.",
+		"next": "144"
+	},
+	{
+		"id": "144",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Guarda qui. No, guarda qui! E li hai pure pagati questi mentecatti?",
+		"next": "145"
+	},
+	{
+		"id": "145",
+		"main": "Non hai mai avuto così tanta paura in tutta la tua vita. Una parte di te ti sta dicendo che l’unico motivo per cui ancora respiri è che non condividi i natali con quella categoria tanto odiata chiamata “calabresi”. Se esiste un Dio questo è il tuo giorno fortunato, perché ha decisamente deciso di risparmiarti.",
+		"next": "146"
+	},
+	{
+		"id": "146",
+		"main": "In ogni caso, non cantare vittoria troppo presto. Sei comunque un terrone.",
+		"next": "147"
+	},
+	{
+		"id": "147",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Guarda qui. Guarda qui! Lo vedi il problema in questo lavoro fatto coi piedi?",
+		"next": "148"
+	},
+	{
+		"id": "148",
+		"main": "Ogni tuo istinto di autopreservazione ti sta supplicando di non rivelare a Isgrò che il problema non lo stai vedendo.",
+		"next": "149"
+	},
+	{
+		"id": "149",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Questo è lavoro fatto da persone che pensano per davvero di meritare di vivere! Non è neanche possibile avere standard bassi con questi deficienti che tanto non ce la fanno comunque! Io non capisco come si possa vivere senza un minimo senso del pudore, ma evidentemente queste bestie non si fanno problemi.",
+		"next": "150"
+	},
+	{
+		"id": "150",
+		"main": "Il livore che stilla dai commenti di Isgrò non lo reputavi possibile per un essere umano, ma dati empirici dimostrano che basta considerare un’intera categoria umana come inferiore perché ogni principio etico venga abbandonato. Per i romani sono gli zingari. Per i genovesi sono i milanesi. E per Isgrò non serve neanche specificarlo.",
+		"next": "151"
+	},
+	{
+		"id": "151",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Ho notato le facce che fai. Non pensare che queste parole le dica a tutti. Il problema sono e rimarranno sempre i calabresi. Tu sei una persona a posto.",
+		"next": "152"
+	},
+	{
+		"id": "152",
+		"main": "Per qualche ragione non ti senti particolarmente rassicurato. Scegli di tenere per te questa informazione.",
+		"next": "153"
+	},
+	{
+		"id": "153",
+		"main": "Il tempo passa in fretta e Isgrò conclude le sue operazioni di salvataggio del lavello. Fa un lavoro decente, o almeno questo è quello che credi. Dopotutto fino a poco fa pensavi che anche quei “calabresi bastardi” avessero fatto un buon lavoro.",
+		"next": "154"
+	},
+	{
+		"id": "154",
+		"main": "Ma dopotutto tu che ne sai? Tu sei un uomo raffinato che tiene la dovuta distanza da lavori da pezzente. Non sei calabrese. Tu sei un terrone di tutto rispetto.",
+		"next": "155"
+	},
+	{
+		"id": "155",
+		"main": "Dopo che Isgrò ti ha avvisato di aver concluso il lavoro e che stava dunque per tornare a casa, ti torna in mente un altro dettaglio. Un dettaglio insignificante, ma che forse andava condiviso con l’operaio.",
+		"next": "156"
+	},
+	{
+		"id": "156",
+		"main": "L’entourage di calabresi non aveva messo mano soltanto al lavello. C’erano dei muri con delle perdite nell’altra stanza.",
+		"next": "157"
+	},
+	{
+		"id": "157",
+		"main": "Ti chiedi se la tua incolumità sarebbe garantita nel caso avvisassi Isgrò di questa tua… dimenticanza",
+		"actions": [
+			{
+				"text": "Digli del muro.",
+				"next": "158",
+				"points": 0
+			},
+			{
+				"text": "Non dire nulla.",
+				"next": "159",
+				"points": 0
+			},
+		]
+	},
+	{
+		"id": "158",
+		"main": "Confessi tutto a Isgrò. Per un attimo hai creduto di essere anche tu un calabrese.",
+		"next": "160"
+	},
+	{
+		"id": "159",
+		"main": "Scegli di proteggere il tuo segreto. Senti di aver scelto il male minore: meglio stare senza tetto che essere nemico di Isgrò.",
+		"next": "160"
+	},
+	{
+		"id": "160",
+		"main": "Le tempie di Isgrò hanno scoperto una nuova frontiera della rabbia. Presto acquisirà una nuova forma.",
+		"next": "161"
+	},
+	{
+		"id": "161",
+		"main": "Ottenuta la Maschera del [b]Muratore Furibondo[/b].",
+		"next": "213"
+	},
+	{
+		"id": "162",
+		"title": "[i]Giorno 3:[br] Chiamatemi Isgrò. [br] - Vitello Melville[/i]",
+		"next": "163"
+	},
+	{
+		"id": "163",
+		"image": "sconosciuto.webp",
+		"music": "sketchbook006.ogg",
+		"main": "Un fiero condottiero (è una donna oppure un uomo?), azzimato dei lussi della borghesia genovese, cavalca un magro ronzino di metallo lungo le sponde del fiume che delimita il suo territorio.",
+		"next": "164"
+	},
+	{
+		"id": "164",
+		"main": "Dal temperamento tanto fiero da sfiorare l’alterigia, mai c’era un momento che non veniva servito dal suo fide scudiero, certo messer Samuel Laziale, ma che per i fini del racconto è pressoché irrilevante. Si rammenti che il protagonista di questa opera ludica rimane e rimarrà Isgrò, in tutte le sue forme e divina beltade.",
+		"next": "165"
+	},
+	{
+		"id": "165",
+		"main": "Isgrò si accorge della tua presenza e si avvicina in groppa al suo puledro. La sua aura sprigiona opulenza finanche superiorità.",
+		"next": "166"
+	},
+	{
+		"id": "166",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Ossequi, dipendente di seconda categoria.",
+		"next": "167"
+	},
+	{
+		"id": "167",
+		"main": "Il tono sarcastico della sua risposta non è sfuggito alle tue orecchie.",
+		"actions": [
+			{
+			"text": "Cosa vuol dire “ossequi”?",	
+			"next": "168",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "168",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Messere, lei è ovviamente inebetito. È evidente che interloquire con lei si rivelerebbe nient’altro che una perdita del mio tempo. La saluto.",
+		"actions": [
+			{
+			"text": "Non accetto offese da una donna con la barba!",	
+			"next": "169",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "169",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Villano! Lestofante!",
+		"actions": [
+			{
+			"text": "Berlusconi era un buon politico!",	
+			"next": "170",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "170",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: [i]Gasp[/i]! Osa pronunciare tali bestemmie di fronte all’Isgrondottiero!",
+		"actions": [
+			{
+			"text": "La democrazia non funziona!",	
+			"next": "171",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "171",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Basta, basta, la avverto!",
+		"actions": [
+			{
+			"text": "Ti ringrazio per essere venuto.",	
+			"next": "172",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "172",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Silenzio! Mostro di crudeltà! Carogna! Milanese!",
+		"actions": [
+			{
+			"text": "Tu indubbiamente approvi le pull request senza leggerle!",	
+			"next": "173",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "173",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Taci, pusillanime! A singolar tenzone!",
+		"actions": [
+			{
+			"text": "Prosaico e vile lazzarone! Nemico del popolo! Userai sicuramente prodotti per barba scadenti!",	
+			"next": "174",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "174",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Uso Bullfrog.",
+		"actions": [
+			{
+			"text": "Ah, interessante. Allora sei mio amico. Saluti, viandante. ",	
+			"next": "300",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "300",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Saluti, viandante.",
+		"actions": [
+			{
+			"text": "Non ti conosco, e non mi interessa conoscerti.",	
+			"next": "175",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "175",
+		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Va bene. Buona giornata.",
+		"actions": [
+			{
+			"text": "Buona giornata.",	
+			"next": "176",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "176",
+		"main": "Il dialogo con Isgrò è stato completamente inutile. Non era così che doveva andare. Presto acquisirà una nuova forma.",
+		"next": "177"
+	},
+	{
+		"id": "177",
+		"panel": "Ottenuta la Maschera del [b]Lead stanco[/b].",
+		"next": "231"
+	},
+	{
+		"id": "178",
+		"title": "[i]Giorno 3:[br] Qualsiasi cosa nella creazione che esiste senza la conoscenza di Isgrò esiste senza il consenso di Isgrò. [br] - Vitello McCarthy[/i]",
+		"next": "179"
+	},
+	{
+		"id": "179",
+		"music": "sketchbook012.ogg",
+		"panel": "La terra trema sotto i passi del mostro. Un ospite indesiderato ha invaso il suo territorio e Isgrò non avrebbe accettato questo affronto.",
+		"next": "180"
+	},
+	{
+		"id": "180",
+		"panel": "Il signore del Bisagno è a caccia di intrusi. Chiunque osasse invadere il suo territorio sarebbe stato fatto a pezzi senza alcuna pietà.",
+		"next": "181"
+	},
+	{
+		"id": "181",
+		"panel": "Fauci rosso-sangue dilaniano. Artigli d’acciaio ghermiscono. Zampe di gigante schiacciano e spappolano. Barba lunga stritola.",
+		"next": "182"
+	},
+	{
+		"id": "182",
+		"image": "vitellone_gamberone.webp",
+		"main": "Il mostro ti ha trovato. Occhi di fiamme ti scandagliano l’anima. Dietro di te il Bisagno si estende all’infinito.",
+		"actions":	
+		[
+			{
+				"text": "Affronta il mostro.",
+				"next": "183",
+				"points": 0
+			},
+			{
+				"text": "Scappa.",
+				"next": "188",
+				"points": 0
+			}
+		]
+	},
+	{
+		"id": "183",
+		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]GRAAAAAAAAAAAAAH!!![/b]",
+		"next": "184"
+	},
+	{
+		"id": "184",
+		"main": "Il ruggito del mostro incontra il tuo grido disperato. Non c’è più via di fuga.",
+		"next": "185"
+	},
+	{
+		"id": "185",
+		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]GNEEEEEEEE!!! GNOOOOOOOO!!! BRUUUUUUUUU!!![/b]",
+		"actions": [
+			{
+			"text": "[b]AAAAAAAAAAAAAAAAA[/b]",	
+			"next": "186",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "186",
+		"main": "Il tuo coraggio non basta. Isgrò ti ha afferrato con la barba e presto morirai tra atroci sofferenze. Il tuo futuro è diventare lo sterco di Isgrò.",
+		"next": "187"
+	},
+	{
+		"id": "187",
+		"main": "La prossima volta devi volere più bene a Isgrò.",
+		"next": "196"
+	},
+	{
+		"id": "188",
+		"main": "Ti giri e corri via. Il mostro non perde tempo e parte all’inseguimento.",
+		"next": "189"
+	},
+	{
+		"id": "189",
+		"main": "Il terremoto e il boato accompagnano ogni passo del gigante. Lo senti così vicino da farti accapponare la pelle. L’adrenalina ti trasforma. Il sangue scorre in ogni tuo muscolo. La stanchezza non la senti più. Le gambe obbediscono alla paura.",
+		"next": "190"
+	},
+	{
+		"id": "190",
+		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]CAAAAAAAAAOOOOAOAOOAOAOAOAAAAA!!![/b]",
+		"next": "191"
+	},
+	{
+		"id": "191",
+		"main": "È tutto uguale. Il Bisagno non finisce mai. Procede e procede e procede e procede. Senti una forte nausea. Hai paura di morire.",
+		"next": "192"
+	},
+	{
+		"id": "192",
+		"main": "Le forze ti abbandonano. Il mostro è qui. Isgrò sta arrivando. Isgrò è… !!!",
+		"next": "193"
+	},
+	{
+		"id": "193",
+		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]KYAAAAAAA!!![/b]",
+		"next": "194"
+	},
+	{
+		"id": "194",
+		"panel": "ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI",
+		"next": "195"
+	},
+	{
+		"id": "195",
+		"panel": "[b]SPLASH[/b]",
+		"next": "196"
+	},
+	{
+		"id": "196",
+		"panel": "Sei stato ucciso da Isgrò. Presto acquisirà una nuova forma.",
+		"next": "197"
+	},
+	{
+		"id": "197",
+		"panel": "Ottenuta la [b]Maschera della Bestia[/b].",
+		"next": "249"
+	},
+	{
+		"id": "198",
+		"title": "[i]Giorno finale: [br]Un cuore di padre è il capolavoro di Isgrò. [br]- Vitello Gambon Prévost[/i]",
+		"next": "199"
+	},
+	{
+		"id": "199",
+		"music": "sketchbook005.ogg",
+		"panel": "Sei svegliato dalla luce del mattino e dal canto degli uccelli. [br]Il mondo si risveglia insieme a te, pronti ad affrontare un nuovo giorno.",
+		"next": "200"
+	},
+	{
+		"id": "200",
+		"panel": "Le coperte ti avvolgono in un abbraccio caldo e profumato. Il cuscino ti sussurra dolci parole di conforto. È difficile trovare la forza di ignorarle, ma con immane volontà riesci a superare anche questo ostacolo.",
+		"next": "201"
+	},
+	{
+		"id": "201",
+		"panel": "Lasci la camera da letto e ti dirigi verso il soggiorno.",
+		"next": "202"
+	},
+	{
+		"id": "202",
+		"panel": "Qualche ninnolo sparso qua e là. [br]Vestiti buttati alla meglio su sedie usate come armadio, scarpe divelte sul tappeto in fibre vegetali, un libro aperto sulla madia. [br] Il televisore, colpito dai raggi del sole, è costellato di particelle di polvere. Un flebile profumo di caffè proviene dalla cucina.",
+		"next": "203"
+	},
+	{
+		"id": "203",
+		"panel": "Tutto sommato, una bella casa. Confortevole, spaziosa e scomposta abbastanza da rendere evidente che qualcuno ci vive. Ti trovi bene. È più che sufficiente per vivere una vita dignitosa.",
+		"next": "204"
+	},
+	{
+		"panel": "204",
+		"main": "Lo stimolo mattutino e l’alito pesante di chi ha dormito di gusto ti spingono verso il bagno. Senti il suono dell’acqua corrente.",
+		"next": "205"
+	},
+	{
+		"id": "205",
+		"image": "procariota.webp",
+		"main": "Vedi Isgrò e il suo riflesso davanti allo specchio del bagno, intento a pulirsi il viso. Tuo padre sembra risplendere di luce propria.",
+		"actions": [
+			{
+			"text": "Buongiorno, papà.",	
+			"next": "206",
+			"points": 0
+			}
+		]
+	},
+	{
+		"id": "206",
+		"main": "[b][color=\"white\"]IsParent[/b][/color]: Buongiorno, figlio mio.",
+		"next": "207"
+	},
+	{
+		"id": "207",
+		"main": "Tuo padre sorride. Non riusciresti a trattenere un sorriso di risposta, e non vedi ragione di limitarti. Sorridi anche tu. Sei felice.",
+		"next": "208"
+	},
+	{
+		"id": "208",
+		"main": "Sei accanto a tuo padre, Isgrò. Lo specchio del bagno vi riflette mentre vi abbracciate. Il suo corpo è caldo. Quasi percepisci il battito del suo cuore entrare in sintonia col tuo. Sei felice.",
+		"next": "209"
+	},
+	{
+		"id": "209",
+		"main": "Il tuo lavoro da Sciamano è concluso. Papà è tornato nella sua forma migliore possibile. La forma in cui può finalmente sorridere insieme a te.",
+		"next": "210"
+	},
+	{
+		"id": "210",
+		"main": "La sua effigie più limpida. La maschera di un viso felice. Ti senti avvolto dall’orgoglio e da un profondo affetto per la persona al tuo fianco.",
+		"next": "211"
+	},
+	{
+		"id": "211",
+		"main": "Siete pronti ad affrontare la vita insieme da padre e figlio.",
+		"next": "212"
+	},
+	{
+		"id": "212",
+		"panel": "Ottenuta la [b]Maschera del Padre[/b].",
 		"end": "true"
-	}
+	},
+	{
+		"id": "213",
+		"title": "[i]Giorno finale: [br]Isgrò non è una potenza personale; è una potenza sociale. [br]- Vitello Marx[/i]",
+		"next": "214"
+	},
+	{
+		"id": "214",
+		"music": "sketchbook005.ogg",
+		"panel": "Ti giunge voce di una nuova focacceria che ha aperto a Genova. Naturalmente, da massimo esperto di focaccia in Italia, non puoi privarti di questa occasione. [br]Dicerie in città affermano che sia la migliore dell’intera città, sostituendosi nel cuore delle persone a tutti gli altri forni storici.",
+		"next": "215"
+	},
+	{
+		"id": "215",
+		"panel": "D’altronde, il gestore (che è anche focacciaio, commesso e addetto alle pulizie) lo conosci molto bene.",
+		"next": "216"
+	},
+	{
+		"id": "216",
+		"panel": "Entri nel locale. Un profumo squisito ti pervade. Questo odore stimolerebbe l’appetito anche a un reduce di un’esperienza all’all you can eat.",
+		"next": "217"
+	},
+	{
+		"id": "217",
+		"image": "focacceria.webp",
+		"main": "Vedi arrivare Isgrò dal laboratorio dietro il bancone con una teglia di focaccia in mano.",
+		"next": "218"
+	},
+	{
+		"id": "218",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Benvenuto, benvenuto!",
+		"next": "219"
+	},
+	{
+		"id": "219",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Ah, Sciamano Vitellone! Che piacere vederti!",
+		"actions": [
+			{
+			"text": "È un piacere anche per me. Come vanno gli affari?",	
+			"next": "219",
+			"points": 0
+			}
+		]
+	},	
+	{
+		"id": "220",
+		"main": "Isgrò annuisce soddisfatto.",
+		"next": "221"
+	},
+	{
+		"id": "221",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Gli affari vanno a gonfie vele! I soldi continuano ad arrivare e i clienti sono felicissimi. E, cosa più importante, di calabresi e milanesi neanche l’ombra!",
+		"actions": [
+			{
+			"text": "Mi fa piacere sentirlo.",	
+			"next": "222",
+			"points": 0
+			}
+		]
+	},	
+	{
+		"id": "222",
+		"main": "Isgrò è felice; di conseguenza, lo sei anche tu. Ma senti che manca qualcosa. Glielo devi chiedere a tutti i costi. Sei sicuro che perdonerà la domanda improvvisa.",
+		"actions": [
+			{
+			"text": "Cosa sono per te?",	
+			"next": "223",
+			"points": 0
+			}
+		]
+	},	
+	{
+		"id": "223",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Un amico, un collaboratore e la ragione grazie a cui sono arrivato dove sono! Ti ringrazierò per il resto della vita. Anzi, prendi pure quello che vuoi. Questa volta offre la casa!",
+		"next": "224"
+	},
+	{
+		"id": "224",
+		"main": "Liberi un sospiro d'affanno.",
+		"actions": [
+			{
+			"text": "Una slerfa di focaccia allora, grazie mille.",	
+			"next": "225",
+			"points": 0
+			}
+		]
+	},	
+	{
+		"id": "225",
+		"main": "Vieni servito immediatamente. Isgrò ti offre la focaccia e, dopo i soliti convenevoli, abbandoni il locale per tornare a casa.",
+		"next": "226"
+	},
+	{
+		"id": "226",
+		"main": "La tua speranza più grande è stata schiacciata sotto il peso della dura realtà. Ma, forse, è tutto per il meglio. Il tuo fine ultimo è sempre stato il benessere di Isgrò. Quel sorriso raggiante mentre ti porgeva la focaccia non era una bugia.",
+		"next": "227"
+	},
+	{
+		"id": "227",
+		"main": "Addenti la focaccia. È la più buona che tu abbia mai mangiato. Cerchi di reprimere le lacrime.",
+		"next": "228"
+	},
+	{
+		"id": "228",
+		"main": "Hai sempre pensato che, quando si ama una persona, bisogna lasciarla libera di vivere la sua vita. Anche a discapito della propria felicità.",
+		"actions": [
+			{
+			"text": "Nei miei ricordi continuerai a risplendere come l’oro. Addio, padre mio. Sii felice.",	
+			"next": "229",
+			"points": 0
+			}
+		]
+	},	
+	{
+		"id": "229",
+		"main": "Speri che il cibo sia un buon antidoto per un cuore spezzato.",
+		"next": "230"
+	},
+	{
+		"id": "230",
+		"panel": "Ottenuta la [b]Maschera del Focacciaio.[/b]",
+		"end": "true"
+	},
+	{
+		"id": "231",
+		"title": "[i]Giorno finale: [br]Isgrò, vorrei sapere come vivono i pesci nel mare. «Come gli uomini sulla terra: i grandi si mangiano quelli piccoli» [br]- Vitello Shakespeare[/i]",
+		"next": "232"
+	},
+	{
+		"id": "232",
+		"music": "sketchbook0013.ogg",
+		"panel": "Una pioggia torrenziale si abbatte su Genova. Mentre vieni protetto dal tuo ombrello di centimetri 118, i tuoi pesanti scarponi taglia 47 affondano nelle pozzanghere in Via di Prè spargendo acqua in ogni direzione.",
+		"next": "233"
+	},
+	{
+		"id": "233",
+		"panel": "È qui, in una delle zone più malfamate di Genova, dove negli ultimi tre mesi si sono verificati ben sei scippi, tre accoltellamenti e quarantaquattro risse (i locali affermano con orgoglio che l’assenza totale di sparatorie sia indice di miglioramento), che si trova la persona che cerchi.[br] Nello spazio angusto di un bivio per un vicoletto giace un relitto del passato.",
+		"next": "234"
+	},
+	{
+		"id": "234",
+		"image": "homeless.webp",
+		"main": "Seduto a gambe incrociate su dei pezzi di cartone, Isgrò è intento a digitare tetre linee di codice con un laptop collegato a chissà quale rete, a lavorare a chissà quale progetto. Accanto a lui bicchieri e lattine vuote, sicuramente un’offerta di qualche passante impietosito.",
+		"next": "235"
+	},
+	{
+		"id": "235",
+		"main": "Il tuo cuore si spezza quando vedi Isgrò in questo stato. Si accorge di te dopo qualche minuto che passi a fissarlo. La sua voce è rauca e fredda.",
+		"next": "236"
+	},
+	{
+		"id": "236",
+		"main": "[b][color=\"black\"]IsgrHomeless[/b][/color]: Belin, cosa vuoi?",
+		"next": "237"
+	},
+	{
+		"id": "237",
+		"main": "Isgrò sembra tanto, tanto stanco e arrabbiato. La consapevolezza che, se ti fossi impegnato di più, se lo avessi amato con più cuore, se avessi compiuto le scelte giuste, tutto questo non sarebbe successo… ti senti la persona peggiore su questa terra.",
+		"next": "238"
+	},
+	{
+		"id": "238",
+		"main": "Isgrò non sembra riconoscerti. O, peggio ancora, potrebbe aver scelto di ignorarti proprio perché ti conosce.",
+		"next": "239"
+	},
+	{
+		"id": "239",
+		"main": "Lontano da ogni affetto, lontano da ogni felicità, lontano da ogni speranza; Isgrò è diventato un clochard condannato a programmare in un bivio di Via di Prè sotto attacco da un violento acquazzone.",
+		"next": "240"
+	},
+	{
+		"id": "240",
+		"main": "Le tue lacrime si confondono con la pioggia.",
+		"next": "241"
+	},
+	{
+		"id": "241",
+		"main": "[b][color=\"black\"]IsgrHomeless[/b][/color]: Mi guardi mica così perché hai un lavoro da offrirmi? Sono disposto a tutto.",
+		"next": "242"
+	},
+	{
+		"id": "242",
+		"main": "Lavorare e non percepire emolumenti: questo è il futuro di Isgrò.",
+		"next": "243"
+	},
+	{
+		"id": "243",
+		"main": "Ti riprometti che la prossima volta non succederà. Ti prometti che aiuterai Isgrò a ritrovare la dignità perduta.",
+		"next": "244"
+	},
+	{
+		"id": "244",
+		"main": "[b][color=\"black\"]IsgrHomeless[/b][/color]: Se non hai nulla da dire, lasciami in pace. Forse qualche azienda risponderà al mio curriculum.",
+		"next": "245"
+	},
+	{
+		"id": "245",
+		"main": "Volgi lo sguardo via da quell’immagine straziante e ti allontani, un macigno immane sul tuo petto e un buco nero allo stomaco. Non riesci più a sopportare il dolore di Isgrò.",
+		"next": "246"
+	},
+	{
+		"id": "246",
+		"main": "Puoi solo sperare che anche questo Isgrò possa cambiare. Devi credere che riuscirà a trovare la propria felicità nell'accettazione della propria condizione e nel continuare a lottare, trovando significato nelle sue azioni. Nonostante la sua condanna a una ricerca eterna e inutile.",
+		"next": "247"
+	},
+	{
+		"id": "247",
+		"main": "Anche se l’unico dio ingiusto causa del suo male sei tu, devi comunque provare a immaginare Isgrò felice.",
+		"next": "248"
+	},
+	{
+		"id": "248",
+		"panel": "Ottenuta la [b]Maschera del Senzatetto[/b].",
+		"end": "true"
+	},
+	{
+		"id": "249",
+		"title": "[i]Giorno finale: [br]Anche uscendo dal manicomio, ormai Isgrò aveva stampato in fronte il marchio del folle. Anzi, dell’invalido. [br]Un essere umano squalificato. In effetti, ormai non era neanche più un essere umano. [br]- Vitello Dazai[/i]",
+		"next": "250"
+	},
+	{
+		"id": "250",
+		"image": "isgroziato.webp",
+		"music": "sketchbook013.ogg",
+		"main": "Esiste il termine “reietto”, che designa un miserabile, un perdente, un depravato ai margini della società: tanti di questi reietti si trovano nelle aziende di videogiochi, in quantità direttamente proporzionale al prestigio di suddetta azienda nell’industria.",
+		"next": "251"
+	},
+	{
+		"id": "251",
+		"main": "In una di queste aziende AAA, in un luogo non specificato di un mondo disgraziato, seduto su una sedia ergonomica da ufficio, Isgrò scrive codice in un ciclo eterno di morte e rinascita spirituale.",
+		"next": "252"
+	},
+	{
+		"id": "252",
+		"main": "Osservandolo, ti torna alla mente il mito di Prometeo che, dopo aver tentato di portare il fuoco all’umanità, viene incatenato a una roccia sul monte Caucaso. [br]Ogni giorno, un'aquila inviata da Zeus divora il suo fegato, che si rigenera durante la notte per via della sua immortalità, rendendo il supplizio eterno.",
+		"next": "253"
+	},
+	{
+		"id": "253",
+		"main": "Ti chiedi se anche questo Isgrò abbia diritto a una notte di riposo o se il suo tempo sia scandito da meeting di aggiornamento tra manager e storie chiuse negli sprint.",
+		"next": "254"
+	},
+	{
+		"id": "254",
+		"main": "Davanti a te c’è Isgrò. Appare ormai come un uomo incapace di provare piacere.",
+		"next": "255"
+	},
+	{
+		"id": "255",
+		"main": "[b][color=\"black\"]IsgRotto[/b][/color]: Ho condotto una vita piena di vergogna. Mi sfugge anche il senso dell’esistenza umana.",
+		"next": "256"
+	},
+	{
+		"id": "256",
+		"main": "Vorresti dirgli che la vita di uno sviluppatore AAA non è definibile un’esistenza umana, ma non te la senti di rigirare il dito nella piaga.",
+		"next": "257"
+	},
+	{
+		"id": "257",
+		"main": "Vorresti dirgli che non dovrebbe essere lì. Vorresti dirgli che non è colpa sua se la sua esistenza ha perso ogni colore. Vorresti dirgli che anche un reietto come lui può trovare il senso nello svegliarsi la mattina; ti domandi da quanto tempo Isgrò non dorma, o se dorma.",
+		"next": "258"
+	},
+	{
+		"id": "258",
+		"main": "Senza peso e solo, Isgrò soffre nel vuoto, nel pericoloso ponte tra il corpo e lo spirito, indugiando in un passato riprovevole.",
+		"next": "259"
+	},
+	{
+		"id": "259",
+		"main": "Vergogna per il passato, disperazione per il presente e una fitta nebbia per il futuro. Tutto per Isgrò è la più bieca oscurità.",
+		"next": "260"
+	},
+	{
+		"id": "260",
+		"main": "Isgrò ti guarda con occhio vacuo, non dissimile dagli abissi di un pesce oceanico. Ti rivolge parole stanche e afflitte.",
+		"next": "261"
+	},
+	{
+		"id": "261",
+		"main": "[b][color=\"black\"]IsgRotto[/b][/color]: O grande Caos, mi prostro in questo momento di fronte a te. Ti scongiuro, esaudisci il mio desiderio.",
+		"next": "262"
+	},
+	{
+		"id": "262",
+		"main": "[b][color=\"black\"]IsgRotto[/b][/color]: Ritorna tutto al nulla. Lascia che io rinasca nel più puro e bianco splendore.",
+		"next": "263"
+	},
+	{
+		"id": "263",
+		"main": "Il reietto rivolge nuovamente lo sguardo al suo monitor. Un moderno Prometeo, la sua punizione non si sarebbe mai conclusa. Anche tu, Sciamano che orchestra il destino, ti domandi per quali orribili crimini stia venendo punito.",
+		"next": "264"
+	},
+	{
+		"id": "264",
+		"main": "Forse è il semplice esistere il suo peccato originale.",
+		"next": "265"
+	},
+	{
+		"id": "265",
+		"panel": "Ottenuta la [b]Maschera dello sviluppatore tripla A[/b].",
+		"end": "true",
+	},
 ]
