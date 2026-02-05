@@ -695,7 +695,7 @@
 			},
 			{
 				"text": "Colpa mia.",
-				"next": "13",
+				"next": "89",
 				"points": -10
 			}
 		]
@@ -1709,7 +1709,7 @@
 	},
 	{
 		"id": "247",
-		"main": "Anche se l’unico dio ingiusto causa del suo male sei tu, devi comunque provare a immaginare Isgrò felice.",
+		"main": "Anche se sei tu l’unico dio ingiusto causa del suo male, devi comunque provare a immaginare Isgrò felice.",
 		"next": "248"
 	},
 	{
