@@ -1452,7 +1452,7 @@
 		"next": "204"
 	},
 	{
-		"panel": "204",
+		"id": "204",
 		"main": "Lo stimolo mattutino e l’alito pesante di chi ha dormito di gusto ti spingono verso il bagno. Senti il suono dell’acqua corrente.",
 		"next": "205"
 	},
