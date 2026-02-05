@@ -296,7 +296,7 @@
 	},
 	{
 		"id": "33",
-		"main": "[b][color=\"red\"]???[/color][/b]: Fammi accendere la luce, va. Che qua non sappiamo fare manco quello.",
+		"main": "[b][color=\"red\"]???[/color][/b]: Fammi accendere la luce, va'. Che qua non sappiamo fare manco quello.",
 		"next": "36"
 	},
 	{
@@ -492,7 +492,7 @@
 	{
 		"id": "65",
 		"main": "[b]sdighedesdaghede! sdighedesdaghede! sdighedesdaghede! sdighedesdaghede![/b]",
-		"next": "70"
+		"next": "72"
 	},
 	{
 		"id": "66",
@@ -587,7 +587,7 @@
 	},
 	{
 		"id": "75",
-		"title": "[i] Giorno 3: [br] Quando Isgrò una mattina nel suo letto si svegliò da sogni inquieti, si ritrovò trasformato in un immane insetto. [br]- Vitello Kafka",
+		"title": "[i] Giorno 2: [br] Quando Isgrò una mattina nel suo letto si svegliò da sogni inquieti, si ritrovò trasformato in un immane insetto. [br]- Vitello Kafka",
 		"next": "76",
 	},
 	{
@@ -737,7 +737,7 @@
 	},
 	{
 		"id": "93",
-		"main": "Vuoi fare qualcosa per lui",
+		"main": "Vuoi fare qualcosa per lui.",
 				"actions": [
 			{
 				"text": "Consiglia l’argotone.",
@@ -810,7 +810,7 @@
 	{
 		"id": "100",
 		"main": "Isgrò è troppo stanco per commentare. È arrivato per lui il momento della nanna.",
-		"next": "101"
+		"next": "103"
 	},
 	{
 		"id": "101",
@@ -854,17 +854,17 @@
 	{
 		"id": "107",
 		"music": "sketchbook012.ogg",
-		"panel": "Oggi è il primo giorno in accademia per Isgrò. Il suo viaggio nella Massoni Series inizia con una corsa in amichevole con le altre nuove promesse dell’accademia.",
+		"panel": "Oggi è il primo giorno in accademia per Isgrò. Il suo viaggio nella Massoni Series inizia con una corsa in amichevole con le altre nuove promesse dell'East River Academy.",
 		"next": "108"
 	},
 	{
 		"id": "108",
-		"panel": "[b][color=\"red\"]???[/b][/color]: Aaah… ma che… aaaa… sto morendo… !!!",
+		"panel": "[b][color=\"red\"]???[/color][/b]: Aaah… ma che… aaaa… sto morendo… !!!",
 		"next": "109"
 	},
 	{
 		"id": "109",
-		"panel": "Romantic IsgRainbow sfreccia a massima velocità lungo il tracciato fin dall’inizio della gara, piazzandosi in prima posizione e mantenendo il suo dominio con rigore marziale e un impeto esplosivo degno di un vulcano.",
+		"panel": "Rainbow IsgRomance sfreccia a massima velocità lungo il tracciato fin dall’inizio della gara, piazzandosi in prima posizione e mantenendo il suo dominio con rigore marziale e un impeto esplosivo degno di un vulcano.",
 		"next": "110"
 	},
 	{
@@ -874,12 +874,12 @@
 	},
 	{
 		"id": "111",
-		"panel": "Un grido entusiasta infrange il cielo. Il mondo intero trema mentre Romantic IsgRainbow supera la linea del traguardo come indiscusso vincitore. “Isgrò first, the rest nowhere”.",
+		"panel": "Un grido entusiasta infrange il cielo. Il mondo intero trema mentre Rainbow IsgRomance supera la linea del traguardo come indiscusso vincitore. “Isgrò first, the rest nowhere”.",
 		"next": "112"
 	},
 	{
 		"id": "112",
-		"panel": "E tu, in tutto ciò, chi sei? Qual è il tuo ruolo nella storia di Romantic IsgRainbow da meritarsi una menzione nelle pagine della sua leggenda? Forse è addirittura tra i più importanti. Dove Romantic IsgRainbow ha offerto fervide promesse e passati irti di sacrifici, tu hai osato scrivere la prima frase.",
+		"panel": "E tu, in tutto ciò, chi sei? Qual è il tuo ruolo nella storia di Rainbow IsgRomance da meritarsi una menzione nelle pagine della sua leggenda? Forse è addirittura tra i più importanti. Dove Rainbow IsgRomance ha offerto fervide promesse e passati irti di sacrifici, tu hai osato scrivere la prima frase.",
 		"next": "113"
 	},
 	{
@@ -900,12 +900,12 @@
 	{
 		"id": "116",
 		"image": "umamusume.webp",
-		"main": "Romantic IsgRainbow… no, Isgrò si avvicina a te. Siete soli.",
+		"main": "Rainbow IsgRomance… no, Isgrò si avvicina a te. Siete soli.",
 		"next": "117"
 	},
 	{
 		"id": "117",
-		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Hai visto?",
+		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]: Hai visto?",
 		"next": "118"
 	},
 	{
@@ -931,7 +931,7 @@
 	},
 	{
 		"id": "120",
-		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]:  Belin, ma per forza? Ma farmi complimenti normali no?",
+		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]:  Belin, ma per forza? Ma farmi complimenti normali no?",
 		"next": "121"
 	},
 	{
@@ -941,13 +941,13 @@
 	},
 	{
 		"id": "122",
-		"main": "Dalla lucentezza nel suo sguardo, sembra che Isgrò abbia qualcosa di importante da dirti. Agendo di puro istinto, fai un voto di silenzio e ti prepari ad ascoltare religiosamente la voce della tua stella.",
+		"main": "Dalla lucentezza nel suo sguardo, sembra che Isgrò abbia qualcosa di importante da dirti. Agendo di puro istinto, fai un voto di silenzio e ti prepari ad ascoltare la voce della tua stella.",
 		"next": "123"
 	},
 	{
 		"id": "123",
 		"music": "sketchbook004.ogg",
-		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Per tutto questo tempo, tu sei stato con me. Per tutto questo tempo, tu hai creduto in me. Per tutto questo tempo, mi hai abbracciato nei momenti più tristi e hai condiviso la mia gioia nei momenti più felici.",
+		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]: Per tutto questo tempo, tu sei stato con me. Per tutto questo tempo, tu hai creduto in me. Tu mi hai abbracciato nei momenti più tristi e hai condiviso la mia gioia nei momenti più felici.",
 		"next": "124"
 	},
 	{
@@ -957,7 +957,7 @@
 	},
 	{
 		"id": "125",
-		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Finché vivrò, non dimenticherò mai la tua presenza al mio fianco durante questi anni. Anche se le nostre strade finiranno per dividersi. Anche dopo la morte. Qualunque cosa accada.",
+		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]: Finché vivrò, non dimenticherò mai la tua presenza al mio fianco durante questi anni. Anche se le nostre strade finiranno per dividersi. Anche dopo la morte. Qualunque cosa accada.",
 		"next": "126"
 	},
 	{
@@ -967,7 +967,7 @@
 	},
 	{
 		"id": "127",
-		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: No, perdona le mie parole. Sono accuse ingiustificate verso la persona che ha sempre creduto in me.",
+		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]: No, perdona le mie parole. Sono accuse ingiustificate verso la persona che ha sempre creduto in me.",
 		"next": "128"
 	},
 	{
@@ -977,17 +977,17 @@
 	},
 	{
 		"id": "129",
-		"main": "[b][color=\"red\"]Romantic IsgRainbow[/b][/color]: Ora e per sempre, promettimi che saremo insieme. Voglio che tu, da qui fino all’eternità, diventi la mia stella polare. In cambio, giuro di fare lo stesso per te.",
+		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]: Ora e per sempre, promettimi che saremo insieme. Voglio che tu, da qui fino all’eternità, diventi la mia stella polare. In cambio, giuro di fare lo stesso per te.",
 		"next": "130"
 	},
 	{
 		"id": "130",
-		"main": "Per una ragazza-cavallo, le stelle sono il simbolo più grande della speranza e dell’ambizione. Ciò significa, senza mezzi termini, che giurare di assumere per qualcun altro il ruolo della stella polare – la bussola celeste, per secoli la salvezza di chi si perdeva in mare – è il simbolo della più alta devozione. Perché di stella polare ce ne può essere una sola.",
+		"main": "Per una ragazza-cavallo, le stelle sono il simbolo più grande della speranza e dell’ambizione. Ciò significa, senza mezzi termini, che giurare di assumere per qualcun altro il ruolo della stella polare – la bussola celeste – è il simbolo della più alta devozione. Perché di stella polare ce ne può essere una sola.",
 		"next": "131"
 	},
 	{
 		"id": "131",
-		"main": "Per legge di natura, tu e Isgrò avreste sempre guardato lo stesso cielo con occhi diversi. La vostra era la promessa di cercare l’altro nel cielo notturno e di ritrovarlo nella vastità del firmamento. Uniti, qualunque cosa accada.",
+		"main": "Per legge di natura, tu e Isgrò avreste sempre guardato lo stesso cielo con occhi diversi. La vostra era la promessa di cercare l’altro nella volta celeste e di ritrovarlo nella vastità del firmamento. Uniti, qualunque cosa accada.",
 		"next": "132"
 	},
 	{
@@ -1044,7 +1044,7 @@
 	},
 	{
 		"id": "142",
-		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: E porca di quella madonna puttana però, a quei calabresi DI MERDA non dovrebbe essere concesso riprodursi.",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/color][/b]: E porca di quella madonna puttana però, a quei calabresi DI MERDA non dovrebbe essere concesso riprodursi.",
 		"next": "143"
 	},
 	{
@@ -1054,7 +1054,7 @@
 	},
 	{
 		"id": "144",
-		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Guarda qui. No, guarda qui! E li hai pure pagati questi mentecatti?",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/color][/b]: Guarda qui. No, guarda qui! E li hai pure pagati questi mentecatti?",
 		"next": "145"
 	},
 	{
@@ -1069,7 +1069,7 @@
 	},
 	{
 		"id": "147",
-		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Guarda qui. Guarda qui! Lo vedi il problema in questo lavoro fatto coi piedi?",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/color][/b]: Guarda qui. Guarda qui! Lo vedi il problema in questo lavoro fatto coi piedi?",
 		"next": "148"
 	},
 	{
@@ -1079,7 +1079,7 @@
 	},
 	{
 		"id": "149",
-		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Questo è lavoro fatto da persone che pensano per davvero di meritare di vivere! Non è neanche possibile avere standard bassi con questi deficienti che tanto non ce la fanno comunque! Io non capisco come si possa vivere senza un minimo senso del pudore, ma evidentemente queste bestie non si fanno problemi.",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/color][/b]: Questo è lavoro fatto da persone che pensano per davvero di meritare di vivere! Non è neanche possibile avere standard bassi con questi deficienti che tanto non ce la fanno comunque! Io non capisco come si possa vivere senza un minimo senso del pudore, ma evidentemente queste bestie non si fanno problemi.",
 		"next": "150"
 	},
 	{
@@ -1089,7 +1089,7 @@
 	},
 	{
 		"id": "151",
-		"main": "[b][color=\"red\"]TheMastroPasqua[/b][/color]: Ho notato le facce che fai. Non pensare che queste parole le dica a tutti. Il problema sono e rimarranno sempre i calabresi. Tu sei una persona a posto.",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/color][/b]: Ho notato le facce che fai. Non pensare che queste parole le dica a tutti. Il problema sono e rimarranno sempre i calabresi. Tu sei una persona a posto.",
 		"next": "152"
 	},
 	{
@@ -1109,7 +1109,7 @@
 	},
 	{
 		"id": "155",
-		"main": "Dopo che Isgrò ti ha avvisato di aver concluso il lavoro e che stava dunque per tornare a casa, ti torna in mente un altro dettaglio. Un dettaglio insignificante, ma che forse andava condiviso con l’operaio.",
+		"main": "Dopo che Isgrò ti ha avvisato di aver concluso il lavoro e che stava dunque per tornare a casa, ti torna in mente un altro dettaglio. Un dettaglio insignificante, ma che forse va condiviso con l’operaio.",
 		"next": "156"
 	},
 	{
@@ -1119,7 +1119,7 @@
 	},
 	{
 		"id": "157",
-		"main": "Ti chiedi se la tua incolumità sarebbe garantita nel caso avvisassi Isgrò di questa tua… dimenticanza",
+		"main": "Ti chiedi se la tua incolumità sarebbe garantita nel caso avvisassi Isgrò di questa tua… dimenticanza.",
 		"actions": [
 			{
 				"text": "Digli del muro.",
@@ -1140,7 +1140,7 @@
 	},
 	{
 		"id": "159",
-		"main": "Scegli di proteggere il tuo segreto. Senti di aver scelto il male minore: meglio stare senza tetto che essere nemico di Isgrò.",
+		"main": "Scegli di proteggere il tuo segreto. Senti di aver scelto il male minore: meglio stare senza muro che essere nemico di Isgrò.",
 		"next": "160"
 	},
 	{
@@ -1150,7 +1150,7 @@
 	},
 	{
 		"id": "161",
-		"main": "Ottenuta la Maschera del [b]Muratore Furibondo[/b].",
+		"panel": "Ottenuta la Maschera del [b]Muratore Furibondo[/b].",
 		"next": "213"
 	},
 	{
@@ -1177,7 +1177,7 @@
 	},
 	{
 		"id": "166",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Ossequi, dipendente di seconda categoria.",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Ossequi, dipendente di seconda categoria.",
 		"next": "167"
 	},
 	{
@@ -1193,7 +1193,7 @@
 	},
 	{
 		"id": "168",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Messere, lei è ovviamente inebetito. È evidente che interloquire con lei si rivelerebbe nient’altro che una perdita del mio tempo. La saluto.",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Messere, lei è ovviamente inebetito. È evidente che interloquire con lei si rivelerebbe nient’altro che una perdita del mio tempo. La saluto.",
 		"actions": [
 			{
 			"text": "Non accetto offese da una donna con la barba!",	
@@ -1204,7 +1204,7 @@
 	},
 	{
 		"id": "169",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Villano! Lestofante!",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Villano! Lestofante!",
 		"actions": [
 			{
 			"text": "Berlusconi era un buon politico!",	
@@ -1215,7 +1215,7 @@
 	},
 	{
 		"id": "170",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: [i]Gasp[/i]! Osa pronunciare tali bestemmie di fronte all’Isgrondottiero!",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: [i]Gasp[/i]! Osa pronunciare tali bestemmie di fronte all’Isgrondottiero!",
 		"actions": [
 			{
 			"text": "La democrazia non funziona!",	
@@ -1226,10 +1226,10 @@
 	},
 	{
 		"id": "171",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Basta, basta, la avverto!",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Basta, basta, la avverto!",
 		"actions": [
 			{
-			"text": "Ti ringrazio per essere venuto.",	
+			"text": "E aggiungo anche che—",	
 			"next": "172",
 			"points": 0
 			}
@@ -1237,7 +1237,7 @@
 	},
 	{
 		"id": "172",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Silenzio! Mostro di crudeltà! Carogna! Milanese!",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Silenzio! Mostro di crudeltà! Carogna! Milanese!",
 		"actions": [
 			{
 			"text": "Tu indubbiamente approvi le pull request senza leggerle!",	
@@ -1248,10 +1248,10 @@
 	},
 	{
 		"id": "173",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Taci, pusillanime! A singolar tenzone!",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Taci, pusillanime! A singolar tenzone!",
 		"actions": [
 			{
-			"text": "Prosaico e vile lazzarone! Nemico del popolo! Userai sicuramente prodotti per barba scadenti!",	
+			"text": "Prosaico e vile lazzarone! Nemico del popolo! Userai sicuramente prodotti per la barba scadenti!",	
 			"next": "174",
 			"points": 0
 			}
@@ -1259,7 +1259,7 @@
 	},
 	{
 		"id": "174",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Uso Bullfrog.",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Uso Bullfrog.",
 		"actions": [
 			{
 			"text": "Ah, interessante. Allora sei mio amico. Saluti, viandante. ",	
@@ -1270,7 +1270,7 @@
 	},
 	{
 		"id": "300",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Saluti, viandante.",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Saluti, viandante.",
 		"actions": [
 			{
 			"text": "Non ti conosco, e non mi interessa conoscerti.",	
@@ -1281,7 +1281,7 @@
 	},
 	{
 		"id": "175",
-		"main": "[b][color=\"red\"]Lady Isgror[/b][/color]: Va bene. Buona giornata.",
+		"main": "[b][color=\"red\"]Lady Isgror[/color][/b]: Va bene. Buona giornata.",
 		"actions": [
 			{
 			"text": "Buona giornata.",	
@@ -1313,7 +1313,7 @@
 	},
 	{
 		"id": "180",
-		"panel": "Il signore del Bisagno è a caccia di intrusi. Chiunque osasse invadere il suo territorio sarebbe stato fatto a pezzi senza alcuna pietà.",
+		"panel": "Il signore del Bisagno è a caccia di intrusi. Chiunque osi invadere il suo territorio sarebbe stato fatto a pezzi senza alcuna pietà.",
 		"next": "181"
 	},
 	{
@@ -1341,7 +1341,7 @@
 	},
 	{
 		"id": "183",
-		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]GRAAAAAAAAAAAAAH!!![/b]",
+		"main": "[b][color=\"red\"]BASILISGRO[/color][/b]: [b]GRAAAAAAAAAAAAAH!!![/b]",
 		"next": "184"
 	},
 	{
@@ -1351,7 +1351,7 @@
 	},
 	{
 		"id": "185",
-		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]GNEEEEEEEE!!! GNOOOOOOOO!!! BRUUUUUUUUU!!![/b]",
+		"main": "[b][color=\"red\"]BASILISGRO[/color][/b]: [b]GNEEEEEEEE!!! GNOOOOOOOO!!! BRUUUUUUUUU!!![/b]",
 		"actions": [
 			{
 			"text": "[b]AAAAAAAAAAAAAAAAA[/b]",	
@@ -1382,7 +1382,7 @@
 	},
 	{
 		"id": "190",
-		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]CAAAAAAAAAOOOOAOAOOAOAOAOAAAAA!!![/b]",
+		"main": "[b][color=\"red\"]BASILISGRO[/color][/b]: [b]CAAAAAAAAAOOOOAOAOOAOAOAOAAAAA!!![/b]",
 		"next": "191"
 	},
 	{
@@ -1397,12 +1397,12 @@
 	},
 	{
 		"id": "193",
-		"main": "[b][color=\"red\"]BASILISGRO[/b][/color]: [b]KYAAAAAAA!!![/b]",
+		"main": "[b][color=\"red\"]BASILISGRO[/color][/b]: [b]KYAAAAAAA!!![/b]",
 		"next": "194"
 	},
 	{
 		"id": "194",
-		"panel": "ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI",
+		"panel": "[b]ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI[/b]",
 		"next": "195"
 	},
 	{
@@ -1452,8 +1452,8 @@
 		"next": "204"
 	},
 	{
-		"panel": "204",
-		"main": "Lo stimolo mattutino e l’alito pesante di chi ha dormito di gusto ti spingono verso il bagno. Senti il suono dell’acqua corrente.",
+		"id": "204",
+		"panel": "Lo stimolo mattutino e l’alito pesante di chi ha dormito di gusto ti spingono verso il bagno. Senti il suono dell’acqua corrente.",
 		"next": "205"
 	},
 	{
@@ -1470,7 +1470,7 @@
 	},
 	{
 		"id": "206",
-		"main": "[b][color=\"white\"]IsParent[/b][/color]: Buongiorno, figlio mio.",
+		"main": "[b][color=\"white\"]IsParent[/color][/b]: Buongiorno, figlio mio.",
 		"next": "207"
 	},
 	{
@@ -1532,16 +1532,16 @@
 	},
 	{
 		"id": "218",
-		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Benvenuto, benvenuto!",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/color][/b]: Benvenuto, benvenuto!",
 		"next": "219"
 	},
 	{
 		"id": "219",
-		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Ah, Sciamano Vitellone! Che piacere vederti!",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/color][/b]: Ah, Sciamano Vitellone! Che piacere vederti!",
 		"actions": [
 			{
 			"text": "È un piacere anche per me. Come vanno gli affari?",	
-			"next": "219",
+			"next": "220",
 			"points": 0
 			}
 		]
@@ -1553,7 +1553,7 @@
 	},
 	{
 		"id": "221",
-		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Gli affari vanno a gonfie vele! I soldi continuano ad arrivare e i clienti sono felicissimi. E, cosa più importante, di calabresi e milanesi neanche l’ombra!",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/color][/b]: Gli affari vanno a gonfie vele! I soldi continuano ad arrivare e i clienti sono felicissimi. E, cosa più importante, di calabresi e milanesi neanche l’ombra!",
 		"actions": [
 			{
 			"text": "Mi fa piacere sentirlo.",	
@@ -1575,7 +1575,7 @@
 	},	
 	{
 		"id": "223",
-		"main": "[b][color=\"white\"]IsGrowing Revenue[/b][/color]: Un amico, un collaboratore e la ragione grazie a cui sono arrivato dove sono! Ti ringrazierò per il resto della vita. Anzi, prendi pure quello che vuoi. Questa volta offre la casa!",
+		"main": "[b][color=\"white\"]IsGrowing Revenue[/color][/b]: Un amico, un collaboratore e la ragione grazie a cui sono arrivato dove sono! Ti ringrazierò per il resto della vita. Anzi, prendi pure quello che vuoi. Questa volta offre la casa!",
 		"next": "224"
 	},
 	{
@@ -1617,7 +1617,7 @@
 	},	
 	{
 		"id": "229",
-		"main": "Speri che il cibo sia un buon antidoto per un cuore spezzato.",
+		"panel": "Speri che il cibo sia un buon antidoto per un cuore spezzato.",
 		"next": "230"
 	},
 	{
@@ -1632,7 +1632,7 @@
 	},
 	{
 		"id": "232",
-		"music": "sketchbook0013.ogg",
+		"music": "sketchbook013.ogg",
 		"panel": "Una pioggia torrenziale si abbatte su Genova. Mentre vieni protetto dal tuo ombrello di centimetri 118, i tuoi pesanti scarponi taglia 47 affondano nelle pozzanghere in Via di Prè spargendo acqua in ogni direzione.",
 		"next": "233"
 	},
@@ -1654,7 +1654,7 @@
 	},
 	{
 		"id": "236",
-		"main": "[b][color=\"black\"]IsgrHomeless[/b][/color]: Belin, cosa vuoi?",
+		"main": "[b][color=\"black\"]IsgrHomeless[/color][/b]: Belin, cosa vuoi?",
 		"next": "237"
 	},
 	{
@@ -1679,7 +1679,7 @@
 	},
 	{
 		"id": "241",
-		"main": "[b][color=\"black\"]IsgrHomeless[/b][/color]: Mi guardi mica così perché hai un lavoro da offrirmi? Sono disposto a tutto.",
+		"main": "[b][color=\"black\"]IsgrHomeless[/color][/b]: Mi guardi mica così perché hai un lavoro da offrirmi? Sono disposto a tutto.",
 		"next": "242"
 	},
 	{
@@ -1694,7 +1694,7 @@
 	},
 	{
 		"id": "244",
-		"main": "[b][color=\"black\"]IsgrHomeless[/b][/color]: Se non hai nulla da dire, lasciami in pace. Forse qualche azienda risponderà al mio curriculum.",
+		"main": "[b][color=\"black\"]IsgrHomeless[/color][/b]: Se non hai nulla da dire, lasciami in pace. Forse qualche azienda risponderà al mio curriculum.",
 		"next": "245"
 	},
 	{
@@ -1751,7 +1751,7 @@
 	},
 	{
 		"id": "255",
-		"main": "[b][color=\"black\"]IsgRotto[/b][/color]: Ho condotto una vita piena di vergogna. Mi sfugge anche il senso dell’esistenza umana.",
+		"main": "[b][color=\"black\"]IsgRotto[/color][/b]: Ho condotto una vita piena di vergogna. Mi sfugge anche il senso dell’esistenza umana.",
 		"next": "256"
 	},
 	{
@@ -1781,12 +1781,12 @@
 	},
 	{
 		"id": "261",
-		"main": "[b][color=\"black\"]IsgRotto[/b][/color]: O grande Caos, mi prostro in questo momento di fronte a te. Ti scongiuro, esaudisci il mio desiderio.",
+		"main": "[b][color=\"black\"]IsgRotto[/color][/b]: O grande Caos, mi prostro in questo momento di fronte a te. Ti scongiuro, esaudisci il mio desiderio.",
 		"next": "262"
 	},
 	{
 		"id": "262",
-		"main": "[b][color=\"black\"]IsgRotto[/b][/color]: Ritorna tutto al nulla. Lascia che io rinasca nel più puro e bianco splendore.",
+		"main": "[b][color=\"black\"]IsgRotto[/color][/b]: Ritorna tutto al nulla. Lascia che io rinasca nel più puro e bianco splendore.",
 		"next": "263"
 	},
 	{
