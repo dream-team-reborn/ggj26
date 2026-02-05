@@ -157,22 +157,27 @@
 	},
 	{
 		"id": "18",
-		"main": "Isgrò procariota desidera possedere un naso e una gola, così da poter provare l’argotone. La sua evoluzione è imminente.",
-		"next": "22"
+		"main": "Isgrò procariota desidera possedere un naso e una gola, così da poter provare l’argotone.",
+		"next": "301"
 	},
 	{
 		"id": "19",
-		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Voglio migliorare per te, amico eucariota. Anche se ciò significa dimenticare chi sono. La sua evoluzione è imminente.",
-		"next": "22"
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Voglio migliorare per te, amico eucariota. Anche se ciò significa dimenticare chi sono.",
+		"next": "301"
 	},
 	{
 		"id": "20",
-		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Non so cosa sia la dignità, ma sento una grande affinità con questo naso rosso.Il flagello di Isgrò si muove curioso. La sua brama di conoscenza è incontenibile. La sua evoluzione è imminente.",
-		"next": "22"
+		"main": "[b][color=\"green\"]IsgrOrigin[/color][/b]: Non so cosa sia la dignità ma sento una grande affinità con questo naso rosso. Il mio flagello si muove curioso. Sento un'incontenibile brama di conoscenza.",
+		"next": "301"
 	},
 	{
 		"id": "21",
-		"main": "Lo spidifen risveglia in Isgrò ricordi che non ha mai vissuto. Il procariota desidera ardentemente una pelle che gli permetta di sentire i raggi del sole. Si sente… migliorato. La sua evoluzione è imminente.",
+		"main": "Lo spidifen risveglia in Isgrò ricordi che non ha mai vissuto. Il procariota desidera ardentemente una pelle che gli permetta di sentire i raggi del sole. Si sente… migliorato.",
+		"next": "301"
+	},
+	{
+		"id": "301",
+		"main": "L'evoluzione di Isgrò è imminente.",
 		"next": "22"
 	},
 	{
@@ -222,6 +227,7 @@
 	},
 	{
 		"id": "25",
+		"music": "",
 		"title": "[i]Giorno 2: [br]Isgrò, luce della mia vita, fuoco dei miei lombi. Mio peccato, anima mia. [br]- Vitello Nabokov[/i]",
 		"next": "26"
 	},
@@ -276,7 +282,7 @@
 	},
 	{
 		"id": "29",
-		"main": "[b][color=\"red\"]???[/color][/b]: Non ho capito che c’entra, ma ora mi piaci un po’ di più. Bravo!",
+		"main": "[b][color=\"red\"]???[/color][/b]: Non ho capito che c’entra ma ora mi piaci un po’ di più. Bravo!",
 		"next": "36"
 	},
 	{
@@ -311,7 +317,12 @@
 	},
 	{
 		"id": "36",
-		"main": "Con passo pesante, l’uomo si avvicina al pulsante della luce. [br]La sua visione notturna iper-sviluppata gli permette di posare un piede davanti all’altro, senza incertezze, anche nelle tenebre più profonde. [br]Il piacere di chiamarsi Isgrò.",
+		"main": "Con passo pesante, l’uomo si avvicina al pulsante della luce. [br]La sua visione notturna iper-sviluppata gli permette di posare un piede davanti all’altro, senza incertezze, anche nelle tenebre più profonde.",
+		"next": "400"
+	},
+	{
+		"id": "400",
+		"main": "Il piacere di chiamarsi Isgrò.",
 		"next": "37"
 	},
 	{
@@ -390,7 +401,7 @@
 	},
 	{
 		"id": "48",
-		"main": "Isgrò ti squadra con occhi da assassino. Non solo hai rovinato il suo momento di gloria, ma hai anche sbagliato la battuta. Non potrai mai mondare quest’onta.",
+		"main": "Isgrò ti squadra con occhi da assassino. Non solo hai rovinato il suo momento di gloria, hai anche sbagliato la battuta. Non potrai mai mondare quest’onta.",
 		"next": "52"
 	},
 	{
@@ -400,7 +411,7 @@
 	},
 	{
 		"id": "50",
-		"main": "Il tuo animo affamato si è rifocillato in paradiso. Non c’è felicità più grande di questa.",
+		"main": "Il tuo animo affamato di gloria si è rifocillato in paradiso. Non c’è felicità più grande di questa.",
 		"next": "51"
 	},
 	{
@@ -486,7 +497,7 @@
 	},
 	{
 		"id": "63",
-		"main": "(Non lo ammetterà, ma Isgrò ha apprezzato la tua premura.)",
+		"main": "(Non lo ammetterà ma Isgrò ha apprezzato la tua premura.)",
 		"next": "66"
 	},
 	{
@@ -587,11 +598,13 @@
 	},
 	{
 		"id": "75",
+		"music": "",
 		"title": "[i] Giorno 2: [br] Quando Isgrò una mattina nel suo letto si svegliò da sogni inquieti, si ritrovò trasformato in un immane insetto. [br]- Vitello Kafka",
 		"next": "76",
 	},
 	{
 		"id": "76",
+		"music": "sketchbook003.ogg",
 		"panel": "Purtroppo non tutte le ciambelle escono col buco. E, fatto ancora più avvilente, non tutti gli Isgrò escono sgravati.",
 		"next": "77"
 	},
@@ -612,8 +625,7 @@
 	},
 	{
 		"id": "80",
-		"music": "sketchbook003.ogg",
-		"image": "sconosciuto.webp",
+		"image": "popisgro.webp",
 		"main": "Questa triste storia si è ripetuta un’altra volta. Il nostro Isgrò procariota non è uscito col buco e si è tramutato in qualcosa di deprecabile.",
 		"next": "81"
 	},
@@ -834,7 +846,7 @@
 	},
 	{
 		"id": "105",
-		"main": "Ottenuta la [b]Maschera del Delitto e della Pena[/b].",
+		"panel": "Ottenuta la [b]Maschera del Delitto e della Pena[/b].",
 		"conditionals": [
 			  {
 				"more": 0,
@@ -848,6 +860,7 @@
 	},
 	{
 		"id": "106",
+		"music": "",
 		"title": "[i]Giorno 3: [br]Corri, Isgrò, corri! [br]- Vitello Zemeckis.[/i]",
 		"next": "107"
 	},
@@ -918,7 +931,7 @@
 				"points": 0
 			},
 			{
-				"text": "Non male, ma la prossima volta sarai ancora più bravo.",
+				"text": "Non male ma la prossima volta sarai ancora più bravo.",
 				"next": "120",
 				"points": 0
 			}
@@ -931,12 +944,12 @@
 	},
 	{
 		"id": "120",
-		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]:  Belin, ma per forza? Ma farmi complimenti normali no?",
+		"main": "[b][color=\"red\"]Rainbow IsgRomance[/color][/b]:  Belin, per forza? Ma farmi complimenti normali no?",
 		"next": "121"
 	},
 	{
 		"id": "121",
-		"main": "Le sue parole potrebbero sembrare truci, ma l’espressione gentile sul suo viso tradisce i suoi veri sentimenti.",
+		"main": "Le sue parole potrebbero sembrare truci ma l’espressione gentile sul suo viso tradisce i suoi veri sentimenti.",
 		"next": "122"
 	},
 	{
@@ -1022,6 +1035,7 @@
 	},
 	{
 		"id": "138",
+		"music": "",
 		"title": "[i]Giorno 3:[br] «Cantami, o Diva, del pelide Isgrò[br] l'ira funesta che infiniti addusse lutti[br] ai Calabresi»[br] - UomeroValigia[/i]",
 		"next": "139"
 	},
@@ -1079,12 +1093,12 @@
 	},
 	{
 		"id": "149",
-		"main": "[b][color=\"red\"]TheMastroPasqua[/color][/b]: Questo è lavoro fatto da persone che pensano per davvero di meritare di vivere! Non è neanche possibile avere standard bassi con questi deficienti che tanto non ce la fanno comunque! Io non capisco come si possa vivere senza un minimo senso del pudore, ma evidentemente queste bestie non si fanno problemi.",
+		"main": "[b][color=\"red\"]TheMastroPasqua[/color][/b]: Questo è lavoro fatto da persone che pensano davvero di meritare di vivere! Non è neanche possibile avere standard bassi con questi deficienti che tanto non ce la fanno comunque! Io non capisco come si possa vivere senza un minimo senso del pudore ma evidentemente queste bestie non si fanno problemi.",
 		"next": "150"
 	},
 	{
 		"id": "150",
-		"main": "Il livore che stilla dai commenti di Isgrò non lo reputavi possibile per un essere umano, ma dati empirici dimostrano che basta considerare un’intera categoria umana come inferiore perché ogni principio etico venga abbandonato. Per i romani sono gli zingari. Per i genovesi sono i milanesi. E per Isgrò non serve neanche specificarlo.",
+		"main": "Il livore che stilla dai commenti di Isgrò non lo reputavi possibile per un essere umano ma dati empirici dimostrano che basta considerare un’intera categoria umana come inferiore perché ogni principio etico venga abbandonato. Per i romani sono gli zingari. Per i genovesi sono i milanesi. E per Isgrò non serve neanche specificarlo.",
 		"next": "151"
 	},
 	{
@@ -1109,7 +1123,7 @@
 	},
 	{
 		"id": "155",
-		"main": "Dopo che Isgrò ti ha avvisato di aver concluso il lavoro e che stava dunque per tornare a casa, ti torna in mente un altro dettaglio. Un dettaglio insignificante, ma che forse va condiviso con l’operaio.",
+		"main": "Dopo che Isgrò ti ha avvisato di aver concluso il lavoro e che stava dunque per tornare a casa, ti torna in mente un altro dettaglio. Un dettaglio insignificante che forse va condiviso con l’operaio.",
 		"next": "156"
 	},
 	{
@@ -1155,19 +1169,20 @@
 	},
 	{
 		"id": "162",
+		"music": "",
 		"title": "[i]Giorno 3:[br] Chiamatemi Isgrò. [br] - Vitello Melville[/i]",
 		"next": "163"
 	},
 	{
 		"id": "163",
-		"image": "sconosciuto.webp",
+		"image": "ladyisgro.webp",
 		"music": "sketchbook006.ogg",
 		"main": "Un fiero condottiero (è una donna oppure un uomo?), azzimato dei lussi della borghesia genovese, cavalca un magro ronzino di metallo lungo le sponde del fiume che delimita il suo territorio.",
 		"next": "164"
 	},
 	{
 		"id": "164",
-		"main": "Dal temperamento tanto fiero da sfiorare l’alterigia, mai c’era un momento che non veniva servito dal suo fide scudiero, certo messer Samuel Laziale, ma che per i fini del racconto è pressoché irrilevante. Si rammenti che il protagonista di questa opera ludica rimane e rimarrà Isgrò, in tutte le sue forme e divina beltade.",
+		"main": "Dal temperamento tanto fiero da sfiorare l’alterigia, mai c’era un momento che non veniva servito dal suo fide scudiero, certo messer Samuel Laziale che per i fini del racconto è pressoché irrilevante. Si rammenti che il protagonista di questa opera ludica rimane e rimarrà Isgrò, in tutte le sue forme e divina beltade.",
 		"next": "165"
 	},
 	{
@@ -1302,18 +1317,19 @@
 	},
 	{
 		"id": "178",
+		"music": "",
 		"title": "[i]Giorno 3:[br] Qualsiasi cosa nella creazione che esiste senza la conoscenza di Isgrò esiste senza il consenso di Isgrò. [br] - Vitello McCarthy[/i]",
 		"next": "179"
 	},
 	{
 		"id": "179",
 		"music": "sketchbook012.ogg",
-		"panel": "La terra trema sotto i passi del mostro. Un ospite indesiderato ha invaso il suo territorio e Isgrò non avrebbe accettato questo affronto.",
+		"panel": "La terra trema sotto i passi del mostro. Un ospite indesiderato (tu) ha invaso il suo territorio e Isgrò non avrebbe accettato questo affronto.",
 		"next": "180"
 	},
 	{
 		"id": "180",
-		"panel": "Il signore del Bisagno è a caccia di intrusi. Chiunque osi invadere il suo territorio sarebbe stato fatto a pezzi senza alcuna pietà.",
+		"panel": "Il signore del Bisagno è a caccia di intrusi. Chiunque osa invadere il suo territorio è fatto a pezzi senza alcuna pietà.",
 		"next": "181"
 	},
 	{
@@ -1323,7 +1339,8 @@
 	},
 	{
 		"id": "182",
-		"image": "vitellone_gamberone.webp",
+		"sound": "mixkit-angry-beast-roar-1728.ogg",
+		"image": "basilisgro.webp",
 		"main": "Il mostro ti ha trovato. Occhi di fiamme ti scandagliano l’anima. Dietro di te il Bisagno si estende all’infinito.",
 		"actions":	
 		[
@@ -1362,13 +1379,13 @@
 	},
 	{
 		"id": "186",
-		"main": "Il tuo coraggio non basta. Isgrò ti ha afferrato con la barba e presto morirai tra atroci sofferenze. Il tuo futuro è diventare lo sterco di Isgrò.",
+		"main": "Il tuo coraggio non basta. Isgrò ti afferra con la barba e molto presto morirai tra atroci sofferenze. Il tuo futuro è diventare lo sterco di Isgrò.",
 		"next": "187"
 	},
 	{
 		"id": "187",
 		"main": "La prossima volta devi volere più bene a Isgrò.",
-		"next": "196"
+		"next": "195"
 	},
 	{
 		"id": "188",
@@ -1402,11 +1419,12 @@
 	},
 	{
 		"id": "194",
-		"panel": "[b]ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI[/b]",
+		"panel": "[b]ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI ISGRÒ È QUI[/b]",
 		"next": "195"
 	},
 	{
 		"id": "195",
+		"sound": "htf-blood-splatter-explode-478992.ogg",
 		"panel": "[b]SPLASH[/b]",
 		"next": "196"
 	},
@@ -1422,18 +1440,19 @@
 	},
 	{
 		"id": "198",
+		"music": "",
 		"title": "[i]Giorno finale: [br]Un cuore di padre è il capolavoro di Isgrò. [br]- Vitello Gambon Prévost[/i]",
 		"next": "199"
 	},
 	{
 		"id": "199",
 		"music": "sketchbook005.ogg",
-		"panel": "Sei svegliato dalla luce del mattino e dal canto degli uccelli. [br]Il mondo si risveglia insieme a te, pronti ad affrontare un nuovo giorno.",
+		"panel": "La luce del mattino e il canto degli uccelli ti riportano nel mondo della veglia. [br] Una nuova giornata comincia nel migliore dei modi.",
 		"next": "200"
 	},
 	{
 		"id": "200",
-		"panel": "Le coperte ti avvolgono in un abbraccio caldo e profumato. Il cuscino ti sussurra dolci parole di conforto. È difficile trovare la forza di ignorarle, ma con immane volontà riesci a superare anche questo ostacolo.",
+		"panel": "Le coperte ti avvolgono in un abbraccio caldo e profumato. Il cuscino ti sussurra dolci parole di conforto. È difficile trovare la forza di ignorare i loro richiami; con immane determinazione riesci a superare anche questo ostacolo.",
 		"next": "201"
 	},
 	{
@@ -1458,8 +1477,8 @@
 	},
 	{
 		"id": "205",
-		"image": "procariota.webp",
-		"main": "Vedi Isgrò e il suo riflesso davanti allo specchio del bagno, intento a pulirsi il viso. Tuo padre sembra risplendere di luce propria.",
+		"image": "trueending.webp",
+		"main": "Vedi Isgrò, intento a pulirsi il viso, davanti allo specchio del bagno. Tuo padre risplende di luce propria.",
 		"actions": [
 			{
 			"text": "Buongiorno, papà.",	
@@ -1505,6 +1524,7 @@
 	},
 	{
 		"id": "213",
+		"music": "",
 		"title": "[i]Giorno finale: [br]Isgrò non è una potenza personale; è una potenza sociale. [br]- Vitello Marx[/i]",
 		"next": "214"
 	},
@@ -1627,6 +1647,7 @@
 	},
 	{
 		"id": "231",
+		"music": "",
 		"title": "[i]Giorno finale: [br]Isgrò, vorrei sapere come vivono i pesci nel mare. «Come gli uomini sulla terra: i grandi si mangiano quelli piccoli» [br]- Vitello Shakespeare[/i]",
 		"next": "232"
 	},
@@ -1669,7 +1690,7 @@
 	},
 	{
 		"id": "239",
-		"main": "Lontano da ogni affetto, lontano da ogni felicità, lontano da ogni speranza; Isgrò è diventato un clochard condannato a programmare in un bivio di Via di Prè sotto attacco da un violento acquazzone.",
+		"main": "Lontano da ogni affetto, lontano da ogni felicità, lontano da ogni speranza; Isgrò è diventato un barbone condannato a programmare in un bivio di Via di Prè.",
 		"next": "240"
 	},
 	{
@@ -1704,7 +1725,7 @@
 	},
 	{
 		"id": "246",
-		"main": "Puoi solo sperare che anche questo Isgrò possa cambiare. Devi credere che riuscirà a trovare la propria felicità nell'accettazione della propria condizione e nel continuare a lottare, trovando significato nelle sue azioni. Nonostante la sua condanna a una ricerca eterna e inutile.",
+		"main": "Puoi solo sperare che anche questo Isgrò possa cambiare. Devi credere che riuscirà a trovare la propria felicità nell'accettazione della propria condizione e nel continuare a lottare; che trovi un qualche significato nelle sue azioni, nonostante la condanna a una ricerca eterna e inutile.",
 		"next": "247"
 	},
 	{
@@ -1719,6 +1740,7 @@
 	},
 	{
 		"id": "249",
+		"music": "",
 		"title": "[i]Giorno finale: [br]Anche uscendo dal manicomio, ormai Isgrò aveva stampato in fronte il marchio del folle. Anzi, dell’invalido. [br]Un essere umano squalificato. In effetti, ormai non era neanche più un essere umano. [br]- Vitello Dazai[/i]",
 		"next": "250"
 	},
@@ -1741,12 +1763,12 @@
 	},
 	{
 		"id": "253",
-		"main": "Ti chiedi se anche questo Isgrò abbia diritto a una notte di riposo o se il suo tempo sia scandito da meeting di aggiornamento tra manager e storie chiuse negli sprint.",
+		"main": "Ti chiedi se anche questo Isgrò abbia diritto a una notte di riposo o se il suo tempo sia scandito unicamente da meeting di aggiornamento tra manager e storie chiuse negli sprint.",
 		"next": "254"
 	},
 	{
 		"id": "254",
-		"main": "Davanti a te c’è Isgrò. Appare ormai come un uomo incapace di provare piacere.",
+		"main": "Isgrò ormai è un uomo incapace di provare piacere.",
 		"next": "255"
 	},
 	{
@@ -1756,7 +1778,7 @@
 	},
 	{
 		"id": "256",
-		"main": "Vorresti dirgli che la vita di uno sviluppatore AAA non è definibile un’esistenza umana, ma non te la senti di rigirare il dito nella piaga.",
+		"main": "Vorresti dirgli che la vita di uno sviluppatore AAA non è definibile un’esistenza umana ma non te la senti di rigirare il dito nella piaga.",
 		"next": "257"
 	},
 	{
@@ -1781,12 +1803,12 @@
 	},
 	{
 		"id": "261",
-		"main": "[b][color=\"black\"]IsgRotto[/color][/b]: O grande Caos, mi prostro in questo momento di fronte a te. Ti scongiuro, esaudisci il mio desiderio.",
+		"main": "[b][color=\"black\"]IsgRotto[/color][/b]: O Vitellone, mi prostro in questo momento di fronte a te. Ti scongiuro, esaudisci il mio desiderio.",
 		"next": "262"
 	},
 	{
 		"id": "262",
-		"main": "[b][color=\"black\"]IsgRotto[/color][/b]: Ritorna tutto al nulla. Lascia che io rinasca nel più puro e bianco splendore.",
+		"main": "[b][color=\"black\"]IsgRotto[/color][/b]: Riporta tutto al Nulla. Lascia che io rinasca nel più puro e bianco splendore.",
 		"next": "263"
 	},
 	{
